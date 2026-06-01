@@ -181,10 +181,9 @@ def get_example_queries() -> List[str]:
 
 
 def create_interface():
-    """Create the Gradio web interface with Python 3.13 compatibility"""
+    """Create the Gradio web interface"""
     
-    # Use a simple theme to avoid complex dependencies
-    theme = None
+    # Use a simple theme
     try:
         theme = gr.themes.Soft(
             primary_hue="blue",
@@ -193,7 +192,7 @@ def create_interface():
         )
     except Exception as e:
         print(f"Could not load custom theme, using default: {e}")
-        theme = gr.themes.Default()
+        theme = None
     
     # Define CSS string
     custom_css = """
@@ -205,11 +204,7 @@ def create_interface():
         }
         """
     
-    with gr.Blocks(
-        title="RAG System - Technical Manual Assistant",
-        theme=theme,
-        css=custom_css
-    ) as app:
+    with gr.Blocks(theme=theme, css=custom_css, title="RAG System") as app:
         
         # Header
         gr.Markdown(
@@ -365,16 +360,14 @@ if __name__ == "__main__":
     print(f"Python version: {sys.version}")
     print("="*60)
     
-    # Create and launch the interface with minimal configuration
+    # Create and launch the interface
     app = create_interface()
     
     print("\nLaunching Gradio interface...")
     
-    # Run locally without share (no HF token needed)
+    # Launch configuration for deployment
     app.launch(
-        server_name="127.0.0.1",
+        server_name="0.0.0.0",
         server_port=7860,
-        share=False,  # Disabled to avoid HF token issues
-        inbrowser=True,  # Opens browser automatically
-        show_error=True
+        share=False
     )
