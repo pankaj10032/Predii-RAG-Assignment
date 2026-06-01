@@ -17,70 +17,69 @@ class ComprehensiveTestSuite:
     """
     Comprehensive test suite for RAG system with detailed analysis
     """
-    
+
     def __init__(self):
         """Initialize the test suite"""
-        print("🚀 Initializing Comprehensive Test Suite...")
+        print("Initializing Comprehensive Test Suite...")
         self.rag_system = UnifiedRAGSystem()
-        
-        # Query type mappings for analysis
+
         self.query_categories = {
             "SUMMARY": {
-                "queries": list(range(1, 6)),  # Queries 1-5
+                "queries": list(range(1, 6)),
                 "keywords": ["summarize", "overview", "list all", "complete"],
                 "expected_type": "summary"
             },
             "PROCEDURAL": {
-                "queries": list(range(6, 16)),  # Queries 6-15
+                "queries": list(range(6, 16)),
                 "keywords": ["how to", "steps", "procedure", "install", "remove", "replace"],
                 "expected_type": "procedural"
             },
             "COMPARISON": {
-                "queries": list(range(16, 21)),  # Queries 16-20
+                "queries": list(range(16, 21)),
                 "keywords": ["compare", "vs", "versus", "difference", "between"],
                 "expected_type": "comparison"
             },
             "TEMPORAL": {
-                "queries": list(range(21, 26)),  # Queries 21-25
+                "queries": list(range(21, 26)),
                 "keywords": ["when", "date", "time", "year", "before", "after"],
                 "expected_type": "temporal"
             },
             "FACTUAL": {
-                "queries": list(range(26, 41)),  # Queries 26-40
+                "queries": list(range(26, 41)),
                 "keywords": ["what is", "specification", "rating", "capacity"],
                 "expected_type": "factual"
             }
         }
-        
-        print("✅ Test suite initialized successfully!")
-    
+
+        print("Test suite initialized successfully!")
+
     def load_test_queries(self, filename: str = "tests.txt") -> List[str]:
         """Load test queries from file"""
         if not os.path.exists(filename):
             raise FileNotFoundError(f"Test file '{filename}' not found")
-        
+
         with open(filename, 'r', encoding='utf-8') as f:
             queries = [line.strip() for line in f if line.strip()]
-        
-        print(f"📋 Loaded {len(queries)} test queries from {filename}")
+
+        print(f"Loaded {len(queries)} test queries from {filename}")
         return queries
-    
+
     def run_comprehensive_test(self, queries: List[str]) -> Dict[str, Any]:
         """
         Run comprehensive test on all queries
-        
+
         Args:
             queries: List of test queries
-            
+
         Returns:
             Comprehensive test results
         """
         print(f"\n{'='*80}")
-        print(f"🧪 Running Comprehensive Test Suite")
+        print("Running Comprehensive Test Suite")
         print(f"{'='*80}")
         print(f"Total Queries: {len(queries)}")
         print(f"Categories: {len(self.query_categories)}")
-        
+
         start_time = time.time()
         results = {
             "test_metadata": {
@@ -95,19 +94,16 @@ class ComprehensiveTestSuite:
             "performance_metrics": {},
             "summary_statistics": {}
         }
-        
-        # Process each query
+
         for i, query in enumerate(queries, 1):
             print(f"\n[{i:2d}/{len(queries)}] Processing: {query[:60]}...")
-            
+
             query_start = time.time()
             rag_result = self.rag_system.query(query, verbose=False)
             query_duration = time.time() - query_start
-            
-            # Determine expected category
+
             expected_category = self._determine_query_category(i)
-            
-            # Create detailed result
+
             query_result = {
                 "query_id": i,
                 "query": query,
@@ -127,43 +123,41 @@ class ComprehensiveTestSuite:
                 "timestamp": rag_result.timestamp,
                 "category_match": expected_category.lower() == rag_result.query_type.lower()
             }
-            
+
             results["query_results"].append(query_result)
-            
-            # Progress indicator
-            print(f"   ✅ {query_duration:.2f}s | {rag_result.num_chunks_used} chunks | {rag_result.query_type} | {rag_result.faithfulness_score:.3f if rag_result.faithfulness_score else 'N/A'}")
-        
-        # Calculate comprehensive analytics
+
+            print(f"   {query_duration:.2f}s | {rag_result.num_chunks_used} chunks | {rag_result.query_type} | {rag_result.faithfulness_score:.3f if rag_result.faithfulness_score else 'N/A'}")
+
         total_duration = time.time() - start_time
         results["test_metadata"]["test_duration_seconds"] = total_duration
-        
+
         results["category_analysis"] = self._analyze_by_category(results["query_results"])
         results["performance_metrics"] = self._calculate_performance_metrics(results["query_results"])
         results["summary_statistics"] = self._calculate_summary_statistics(results["query_results"])
-        
+
         print(f"\n{'='*80}")
-        print(f"🎯 Test Completed Successfully!")
+        print("Test Completed Successfully!")
         print(f"{'='*80}")
         print(f"Total Duration: {total_duration:.2f}s")
         print(f"Average Query Time: {total_duration/len(queries):.2f}s")
         print(f"Queries per Second: {len(queries)/total_duration:.2f}")
-        
+
         return results
-    
+
     def _determine_query_category(self, query_id: int) -> str:
         """Determine expected category for a query based on its ID"""
         for category, info in self.query_categories.items():
             if query_id in info["queries"]:
                 return category
         return "UNKNOWN"
-    
+
     def _analyze_by_category(self, query_results: List[Dict]) -> Dict[str, Any]:
         """Analyze results by query category"""
         category_stats = {}
-        
+
         for category, info in self.query_categories.items():
             category_results = [r for r in query_results if r["expected_category"] == category]
-            
+
             if category_results:
                 category_stats[category] = {
                     "total_queries": len(category_results),
@@ -175,15 +169,15 @@ class ComprehensiveTestSuite:
                     "cutoff_reasons": self._count_cutoff_reasons(category_results),
                     "query_types_detected": self._count_query_types(category_results)
                 }
-        
+
         return category_stats
-    
+
     def _calculate_performance_metrics(self, query_results: List[Dict]) -> Dict[str, Any]:
         """Calculate overall performance metrics"""
         latencies = [r["latency_ms"] for r in query_results]
         chunks_used = [r["num_chunks_used"] for r in query_results]
         faithfulness_scores = [r["faithfulness_score"] for r in query_results if r["faithfulness_score"]]
-        
+
         return {
             "latency": {
                 "min_ms": min(latencies),
@@ -208,7 +202,7 @@ class ComprehensiveTestSuite:
                 "rewrite_rate": sum(1 for r in query_results if r["query_rewritten"]) / len(query_results)
             }
         }
-    
+
     def _calculate_summary_statistics(self, query_results: List[Dict]) -> Dict[str, Any]:
         """Calculate summary statistics"""
         return {
@@ -220,7 +214,7 @@ class ComprehensiveTestSuite:
             "cutoff_reason_distribution": self._count_cutoff_reasons(query_results),
             "query_type_distribution": self._count_query_types(query_results)
         }
-    
+
     def _count_cutoff_reasons(self, results: List[Dict]) -> Dict[str, int]:
         """Count cutoff reasons"""
         reasons = {}
@@ -228,7 +222,7 @@ class ComprehensiveTestSuite:
             reason = result["cutoff_reason"]
             reasons[reason] = reasons.get(reason, 0) + 1
         return reasons
-    
+
     def _count_query_types(self, results: List[Dict]) -> Dict[str, int]:
         """Count detected query types"""
         types = {}
@@ -236,7 +230,7 @@ class ComprehensiveTestSuite:
             query_type = result["actual_query_type"]
             types[query_type] = types.get(query_type, 0) + 1
         return types
-    
+
     def _get_system_config(self) -> Dict[str, Any]:
         """Get current system configuration"""
         from utils.config import Config
@@ -249,52 +243,52 @@ class ComprehensiveTestSuite:
             "initial_candidates": Config.INITIAL_CANDIDATES,
             "rerank_top_k": Config.RERANK_TOP_K
         }
-    
+
     def save_results(self, results: Dict[str, Any], filename: str = None) -> str:
         """Save test results to JSON file"""
         if filename is None:
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
             filename = f"comprehensive_test_results_{timestamp}.json"
-        
+
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
-        
-        print(f"💾 Results saved to: {filename}")
+
+        print(f"Results saved to: {filename}")
         return filename
-    
+
     def print_summary_report(self, results: Dict[str, Any]):
         """Print a comprehensive summary report"""
         print(f"\n{'='*80}")
-        print(f"📊 COMPREHENSIVE TEST SUMMARY REPORT")
+        print("COMPREHENSIVE TEST SUMMARY REPORT")
         print(f"{'='*80}")
-        
+
         metadata = results["test_metadata"]
         performance = results["performance_metrics"]
         summary = results["summary_statistics"]
-        
-        print(f"\n🔧 Test Configuration:")
+
+        print("\nTest Configuration:")
         print(f"   Total Queries: {metadata['total_queries']}")
         print(f"   Test Duration: {metadata['test_duration_seconds']:.2f}s")
         print(f"   Categories Tested: {', '.join(metadata['categories'])}")
-        
-        print(f"\n⚡ Performance Metrics:")
+
+        print("\nPerformance Metrics:")
         print(f"   Avg Latency: {performance['latency']['avg_ms']:.0f}ms")
         print(f"   Latency Range: {performance['latency']['min_ms']:.0f}ms - {performance['latency']['max_ms']:.0f}ms")
         print(f"   Avg Chunks Used: {performance['chunks']['avg_chunks']:.1f}")
         print(f"   Chunks Range: {performance['chunks']['min_chunks']} - {performance['chunks']['max_chunks']}")
         if performance['faithfulness']['avg_score']:
             print(f"   Avg Faithfulness: {performance['faithfulness']['avg_score']:.3f}")
-        
-        print(f"\n🎯 Accuracy Metrics:")
+
+        print("\nAccuracy Metrics:")
         print(f"   Successful Queries: {summary['successful_queries']}/{summary['total_queries_processed']}")
         print(f"   Category Accuracy: {summary['category_accuracy']:.1%}")
         print(f"   Query Rewrite Rate: {performance['query_rewriting']['rewrite_rate']:.1%}")
-        
-        print(f"\n📋 Query Type Distribution:")
+
+        print("\nQuery Type Distribution:")
         for query_type, count in summary['query_type_distribution'].items():
             print(f"   {query_type}: {count} queries")
-        
-        print(f"\n📊 Category Analysis:")
+
+        print("\nCategory Analysis:")
         for category, stats in results["category_analysis"].items():
             print(f"   {category}:")
             print(f"      Queries: {stats['total_queries']}")
@@ -306,32 +300,23 @@ class ComprehensiveTestSuite:
 
 def main():
     """Main function to run comprehensive tests"""
-    print("🧪 Starting Comprehensive RAG System Test Suite")
+    print("Starting Comprehensive RAG System Test Suite")
     print("=" * 80)
-    
+
     try:
-        # Initialize test suite
         test_suite = ComprehensiveTestSuite()
-        
-        # Load test queries
         queries = test_suite.load_test_queries("tests.txt")
-        
-        # Run comprehensive test
         results = test_suite.run_comprehensive_test(queries)
-        
-        # Save results
         output_file = test_suite.save_results(results)
-        
-        # Print summary report
         test_suite.print_summary_report(results)
-        
+
         print(f"\n{'='*80}")
-        print(f"✅ Comprehensive test completed successfully!")
-        print(f"📁 Results saved to: {output_file}")
+        print("Comprehensive test completed successfully!")
+        print(f"Results saved to: {output_file}")
         print(f"{'='*80}")
-        
+
     except Exception as e:
-        print(f"❌ Error during testing: {e}")
+        print(f"Error during testing: {e}")
         raise
 
 

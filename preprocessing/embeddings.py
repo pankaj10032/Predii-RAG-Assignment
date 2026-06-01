@@ -26,16 +26,16 @@ openai_ef = embedding_functions.OpenAIEmbeddingFunction(
 def clean_text(text):
     """
     Clean extracted text
-    
+
     Args:
         text: Raw text
-        
+
     Returns:
         Cleaned text
     """
     if not text:
         return ""
-    text = re.sub(r'\(cid:122\)', '•', text)
+    text = re.sub(r'\(cid:122\)', '', text)
     text = re.sub(r'\(cid:\d+\)', '', text)
     text = re.sub(r'file:///.*', '', text, flags=re.IGNORECASE)
     text = re.sub(r'\s+', ' ', text).strip()
@@ -45,10 +45,10 @@ def clean_text(text):
 def table_to_markdown(table):
     """
     Convert table to Markdown format
-    
+
     Args:
         table: Table data
-        
+
     Returns:
         Markdown formatted table
     """
@@ -67,21 +67,21 @@ def table_to_markdown(table):
 def extract_and_chunk_pdf():
     """
     Extract and chunk PDF
-    
+
     Returns:
         List of chunks
     """
     chunks = []
     output_path = Path(CHUNKS_DIR)
     output_path.mkdir(exist_ok=True)
-    
+
     with pdfplumber.open(PDF_PATH) as pdf:
         for page_num, page in enumerate(pdf.pages, 1):
             print(f"Processing page {page_num}...")
-            
+
             full_text = page.extract_text() or ""
             cleaned_full = clean_text(full_text)
-            
+
             tables = page.extract_tables()
             for idx, table in enumerate(tables):
                 if table and len(table) > 1:
@@ -92,15 +92,15 @@ def extract_and_chunk_pdf():
                         "type": "table",
                         "parent_section": "Suspension System Manual",
                         "section": f"Table Page {page_num}",
-                        "content": f"**Table on Page {page_num}**\n\n{md_table}",
+                        "content": f"Table on Page {page_num}\n\n{md_table}",
                         "metadata": {"doc_type": "ford_f150_manual", "topic": "suspension", "has_table": True}
                     }
                     chunks.append(chunk)
-            
+
             if cleaned_full:
                 pattern = r'(?=(Inspection and Verification|Visual Inspection Chart|Symptom Chart|Pinpoint Test|Ball Joint Inspection|Camber and Caster|Ride Height Measurement))'
                 sections = re.split(pattern, full_text, flags=re.IGNORECASE)
-                
+
                 current_parent = "Suspension System"
                 for section in sections:
                     cleaned = clean_text(section)
@@ -108,7 +108,7 @@ def extract_and_chunk_pdf():
                         continue
                     if re.search(pattern, section, re.IGNORECASE):
                         current_parent = clean_text(section.split('\n')[0])
-                    
+
                     chunk = {
                         "chunk_id": len(chunks) + 1,
                         "page": page_num,
@@ -119,11 +119,11 @@ def extract_and_chunk_pdf():
                         "metadata": {"doc_type": "ford_f150_manual", "topic": "suspension", "has_table": False}
                     }
                     chunks.append(chunk)
-    
+
     json_path = output_path / "suspension_chunks_final.json"
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(chunks, f, indent=2, ensure_ascii=False)
-    
+
     print(f"Chunking done! Total chunks: {len(chunks)}")
     return chunks
 
@@ -131,30 +131,30 @@ def extract_and_chunk_pdf():
 def create_vector_db(chunks):
     """
     Create vector database with embeddings
-    
+
     Args:
         chunks: List of chunks
-        
+
     Returns:
         ChromaDB collection
     """
     print("Creating Chroma vector database with OpenAI embeddings...")
-    
+
     chroma_client = chromadb.PersistentClient(path="chroma_db")
-    
+
     collection = chroma_client.get_or_create_collection(
         name=COLLECTION_NAME,
         embedding_function=openai_ef,
         metadata={"hnsw:space": "cosine"}
     )
-    
+
     documents = []
     metadatas = []
     ids = []
-    
+
     for chunk in chunks:
         embed_text = f"Section: {chunk['parent_section']}\n{chunk['content']}"
-        
+
         documents.append(embed_text)
         metadatas.append({
             "page": chunk["page"],
@@ -163,13 +163,13 @@ def create_vector_db(chunks):
             "has_table": chunk["metadata"].get("has_table", False)
         })
         ids.append(f"chunk_{chunk['chunk_id']}")
-    
+
     collection.add(
         documents=documents,
         metadatas=metadatas,
         ids=ids
     )
-    
+
     print(f"Vector DB created successfully!")
     print(f"Collection '{COLLECTION_NAME}' contains {len(chunks)} documents")
     return collection
@@ -178,4 +178,4 @@ def create_vector_db(chunks):
 if __name__ == "__main__":
     chunks = extract_and_chunk_pdf()
     collection = create_vector_db(chunks)
-    print("\n Pipeline Complete! Ready for RAG queries.")
+    print("Pipeline Complete! Ready for RAG queries.")
