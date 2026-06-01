@@ -8,7 +8,7 @@ sdk_version: 4.44.0
 app_file: app.py
 pinned: false
 license: mit
-python_version: 3.11
+python_version: 3.10
 short_description: Ford F-150 Service Manual RAG System
 ---
 

@@ -12,22 +12,14 @@ try:
     import gradio as gr
 except ImportError as e:
     print(f"Initial Gradio import failed: {e}")
-    # Try installing compatible audio dependencies for Python 3.13
+    # Try with minimal configuration
     try:
-        import subprocess
-        subprocess.check_call([sys.executable, "-m", "pip", "install", "pyaudioop", "--quiet"])
+        os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
         import gradio as gr
-        print("Successfully imported Gradio after installing pyaudioop")
-    except Exception as install_error:
-        print(f"Failed to install pyaudioop: {install_error}")
-        # Fallback: try importing gradio with minimal dependencies
-        try:
-            os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
-            import gradio as gr
-            print("Imported Gradio with analytics disabled")
-        except Exception as final_error:
-            print(f"Final Gradio import attempt failed: {final_error}")
-            raise ImportError("Could not import Gradio. Please check your Python version and dependencies.")
+        print("Successfully imported Gradio with analytics disabled")
+    except Exception as final_error:
+        print(f"Final Gradio import attempt failed: {final_error}")
+        raise ImportError("Could not import Gradio. Please check your Python version and dependencies.")
 
 from unified_rag_system import UnifiedRAGSystem
 
@@ -360,23 +352,6 @@ if __name__ == "__main__":
     print("Starting RAG System Web Interface")
     print(f"Python version: {sys.version}")
     print("="*60)
-    
-    # Check for potential compatibility issues
-    try:
-        import pydub
-        print("✅ pydub imported successfully")
-    except ImportError as e:
-        print(f"⚠️ pydub import issue (may be okay): {e}")
-    
-    try:
-        import audioop
-        print("✅ audioop available")
-    except ImportError:
-        try:
-            import pyaudioop
-            print("✅ pyaudioop available (Python 3.13 compatible)")
-        except ImportError:
-            print("⚠️ No audio modules available (may affect some Gradio features)")
     
     # Create and launch the interface
     try:

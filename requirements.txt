@@ -18,12 +18,8 @@ cohere>=4.0.0
 python-dotenv>=1.0.0
 pyyaml>=6.0
 
-# Web Interface - Pin to compatible version for Python 3.13
+# Web Interface - Compatible with Python 3.10+
 gradio>=4.0.0,<5.0.0
-pydub>=0.25.1
-
-# Audio processing compatibility for Python 3.13
-pyaudioop>=1.0.0
 
 # Data Processing
 pandas>=2.0.0
