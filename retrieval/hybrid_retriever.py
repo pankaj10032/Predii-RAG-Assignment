@@ -80,7 +80,7 @@ class HybridRetriever:
                     chunk_id=str(chunk_id),
                     content=chunk_data['content'],
                     score=score,
-                    page=chunk_data.get('metadata', {}).get('page', 0),
+                    page=chunk_data.get('page', 0),  # Page is at top level, not in metadata
                     rank=rank
                 ))
         
