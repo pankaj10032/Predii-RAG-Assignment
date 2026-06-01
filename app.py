@@ -87,7 +87,8 @@ def query_rag(
 
 ### Interpretation
 """
-            evaluation += "Excellent: Answer is highly faithful to the source material."
+            if result.faithfulness_score > 0.9:
+                evaluation += "Excellent: Answer is highly faithful to the source material."
             elif result.faithfulness_score > 0.8:
                 evaluation += "Good: Answer is faithful to the source material with minor deviations."
             elif result.faithfulness_score > 0.6:

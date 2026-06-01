@@ -1,5 +1,3 @@
-"""Answer generation using LLM"""
-
 from typing import List
 from openai import OpenAI
 from utils.data_models import RetrievalResult

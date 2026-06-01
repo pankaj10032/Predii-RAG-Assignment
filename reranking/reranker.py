@@ -62,5 +62,5 @@ class Reranker:
             return reranked
         
         except Exception as e:
-            print(f"⚠️  Reranking failed: {e}")
+            print(f"Reranking failed: {e}")
             return results[:top_k]
