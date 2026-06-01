@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 24sur 58
+
+**Page:** 775 | **Type:** text
+
+2014 F-150 Workshop Manual Page 24sur 58 section. CLEAR the DTCs. REPEAT the NOTE: Use a meter with a min/max feature and/or self-test. recording capabilities to obtain accurate measurements. The ABS module disables the No voltage output immediately if the wheel speed GO to D9 . sensor is not present. (cid:122) Ignition OFF. (cid:122) Connect: ABS Module C135 . (cid:122) Connect the meter to the suspect wheel speed sensor electrical connector pins, harness side. (cid:122) Set the meter to measure DC voltage. (cid:122) Set the meter range to greater than 15 volts. (cid:122) Enable the min/max or recording feature. (cid:122) Ignition ON. (cid:122) Check the maximum recorded voltage on the meter. (cid:122) Is the maximum recorded voltage greater than 10 volts? D9 CHECK FOR CORRECT ABS MODULE OPERATION (cid:122) Disconnect: ABS Module C135 . Yes (cid:122) Check for: INSTALL a new ABS module. REFER to (cid:132) corrosion Anti-Lock Brake System (ABS) Module in (cid:132) damaged pins this section. CLEAR the DTCs. REPEAT (cid:132) pushed-out pins the self-test. (cid:122) Connect: ABS Module C135 . (cid:122) Make sure the connector seats correctly, then No operate the system and verify the concern is still The system is operating correctly at this present. time. The concern may have been (cid:122) Is the concern still present? caused by a loose or corroded connector. CLEAR the DTCs. REPEAT the self-test.
+
+---

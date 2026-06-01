@@ -1,0 +1,7 @@
+# Visual Inspection Chart
+
+**Page:** 607 | **Type:** text
+
+Visual Inspection Chart Mechanical Electrical (cid:122) Brake fluid level and condition (cid:122) Parking brake switch (cid:122) Brake master cylinder (cid:122) Brake fluid level switch (cid:122) Brake master cylinder reservoir (cid:122) Wiring, terminals or connectors (cid:122) Brake booster (cid:122) Brake booster check valve (cid:122) Brake booster vacuum hose (cid:122) Brake hoses and tubes (cid:122) Brake caliper, guide pins and anchor plate (cid:122) Brake disc (cid:122) Brake pads (cid:122) Brake pedal, bracket and booster linkage (cid:122) Aftermarket modifications 3. Visually inspect the suspension system and tires for obvious signs of wear or damage. (cid:122) For suspension system concerns, refer to Section 204-00 . (cid:122) For tire concerns, refer to Section 204-04 . 4. If an obvious cause for an observed or reported concern is found, correct the cause (if possible) before proceeding to the next step. 5. If the cause is not visually evident, GO to Symptom Chart - Brake System or GO to Symptom Chart - NVH in this section. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE260004.HTM~gen~ref.HT... 2014-03-01
+
+---

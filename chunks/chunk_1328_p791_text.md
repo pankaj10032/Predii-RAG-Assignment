@@ -1,0 +1,6 @@
+# General
+**Page:** 791 | **Type:** text | **Parent:** General
+
+PINPOINT TEST K: DTC U0100 Test Step Result / Action to Take K1 VERIFY THE SCAN TOOL COMMUNICATES WITH THE PCM (cid:122) Connect the scan tool. Yes (cid:122) Check that a vehicle session can be GO to K2 . established using the scan tool. (cid:122) Can a vehicle session be No established? REFER to Section 418-00 to diagnose no communication with the PCM. K2 CHECK THE ABS MODULE CONTINUOUS MEMORY DTCs (cid:122) Ignition ON. Yes (cid:122) Enter the following diagnostic mode GO to K3 . on the scan tool: Self Test —ABS Module . No (cid:122) Clear the DTCs. The system is operating correctly at this time. The DTC (cid:122) Wait 10 seconds. may have been set due to high network traffic or an (cid:122) Repeat the ABS module self-test. intermittent fault condition. (cid:122) Is DTC U0100 retrieved again? K3 RETRIEVE THE RECORDED DTCs FROM THE PCM KOEO SELF-TEST (cid:122) Check for recorded DTCs from the Yes PCM Key ON Engine OFF (KOEO) For PCM DTCs, REFER to Section 303-14 . self-test. (cid:122) Is DTC P0562 or P0563 recorded? No GO to K4 . K4 RETRIEVE THE RECORDED DTCs FROM THE ABS MODULE SELF-TEST (cid:122) Check for recorded DTCs from the Yes ABS module self-test. GO to
+
+---

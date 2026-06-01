@@ -1,0 +1,6 @@
+# General
+**Page:** 288 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 11sur 14 10. Install the differential side gears with the differential clutch packs, selective shims and Belleville spring into the differential case. (cid:122) Hold the differential side gear assembly in place to prevent it from falling out of the differential case. 11. NOTE: Apply a small amount of grease to the step plate bore. NOTE: If necessary, insert the dowel bar in the nut bore to keep the nut from turning as the hex screw is tightened. Assemble the Differential Gauge to the differential case. 1. Position the Differential Gauge step plate in the bottom differential side gear. 2. Position the Differential Gauge in the top differential side gear and hold it in place. 3. Install the Differential Gauge and tighten it 2 turns after it contacts the bottom step plate. 12. NOTE: Lubricate both sides of the differential pinion gear thrust washers with axle lubricant. NOTE: Make sure the differential pinion gears are 180 degrees apart so they will align correctly with the pinion shaft bore. Position the differential pinion gears and differential pinion gear thrust washers in the window of the file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE252A14.HTM~gen~ref.H... 2014-03-01
+
+---

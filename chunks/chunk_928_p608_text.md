@@ -1,0 +1,10 @@
+# Pinpoint Test A: Vibration When the Brakes are Applied
+Normal Operation
+During moderate to heavy bra
+**Page:** 608 | **Type:** text | **Parent:** Pinpoint Test A: Vibration When the Brakes are Applied
+Normal Operation
+During moderate to heavy bra
+
+PINPOINT TEST A: VIBRATION WHEN THE BRAKES ARE APPLIED Result / Action to Test Step Take A1 ROAD TEST THE VEHICLE —LIGHT BRAKING (cid:122) Road test the vehicle. Warm the brakes by slowing the vehicle from 80 Yes to 32 km/h (50 to 20 mph) using light brake force. At highway speeds of GO to A4 . 89-97 km/h (55-60 mph), apply the brake using light pedal force. (cid:122) Is there a vibration/shudder felt in the steering wheel, seat or No brake pedal? GO to A2 . A2 ROAD TEST THE VEHICLE —MODERATE TO HEAVY BRAKING (cid:122) Road test the vehicle. At highway speeds of 89-97 km/h (55-60 mph), Yes apply the brake using a moderate to heavy pedal force. GO to A3 . (cid:122) Is there a vibration/shudder? No The concern is not present at this time. A3 CHECK ABS OPERATION (cid:122) NOTE: During moderate to heavy braking, noise from the HCU and Yes pulsation in the brake pedal can be observed. Pedal pulsation coupled This is a normal with noise during heavy braking or on loose gravel, bumps, wet or operating condition of snowy surfaces is acceptable and indicates correct operation of the the ABS. ABS. Pedal pulsation or steering wheel nibble with the frequency proportional to vehicle speed indicates a concern with a brake or No suspension component. GO to A5 . (cid:122) Road test the vehicle and apply the brakes on a dry, firm surface, then apply the brakes on a wet, snowy or loose surface (such as gravel). (cid:122) Is the vibration/shudder only present on a wet, snowy or loose surface? A4 ISOLATE BRAKE VIBRATION (cid:122) NOTE: This test is not applicable to vehicles with drum-in-hat type Yes parking brakes. For vehicles with drum-in-hat parking brakes, proceed GO to A7 . file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE260006.HTM~gen~ref.HT... 2014-03-01
+
+---

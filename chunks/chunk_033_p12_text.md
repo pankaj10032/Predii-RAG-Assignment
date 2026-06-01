@@ -1,0 +1,8 @@
+# Camber and Caster Adjustment
+NOTICE: Do not remove the stabilizer bar brackets until the stabilizer 
+**Page:** 12 | **Type:** text | **Parent:** Camber and Caster Adjustment
+NOTICE: Do not remove the stabilizer bar brackets until the stabilizer 
+
+Camber and Caster Adjustment NOTICE: Do not remove the stabilizer bar brackets until the stabilizer links have been disconnected or damage to the stabilizer bar links may occur. NOTE: To allow for adjustment of the lower arm in the frame slots, the lower arm bolts and nuts must be removed and discarded. They are replaced with cam bolt kit 3C333. The vehicle should be supported by the frame to ease movement of the lower arm in the slot. 1. Using alignment equipment and the manufacturers instructions, measure the front caster and camber. (cid:122) Refer to Alignment Specifications in the Specifications portion of this section for optimal alignment settings. (cid:122) If the caster and camber values are not within specification, go to the next step. 2. Remove and discard the lower arm front and rear nuts and bolts. 3. NOTICE: Do not hold the stabilizer link boot with any tool as damage to the boot will occur. NOTE: Use the hex-holding feature to prevent the stud from turning while removing the nuts. Remove and discard the stabilizer bar link lower nuts. 4. Remove the 4 stabilizer bar bracket nuts, 2 stabilizer bar brackets and position the stabilizer bar aside. (cid:122) Discard the nuts. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE240005.HTM~gen~ref.HT... 2014-03-01
+
+---

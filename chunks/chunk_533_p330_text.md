@@ -1,0 +1,6 @@
+# General
+**Page:** 330 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 1sur 5 SECTION 205-02A: Rear Drive Axle/Differential —Ford 8.8-Inch Ring Gear 2014 F-150 Workshop Manual REMOVAL AND INSTALLATION Procedure revision date: 10/25/2013 Axle Assembly Item Part Number Description 1 W705518 U-bolt nuts (8 required) 2 5798 U-bolt plates (2 required) 3 W520214 Lower shock absorber nuts (2 required) 4 W506545 Lower shock absorber bolts (2 required) 5 57632 Brake tube/parking brake cable bracket bolt 6 4022 Axle vent 7 W712215 Brake hose bracket bolt Removal and Installation NOTICE: Suspension fasteners are critical components because they affect performance of vital components and systems and their failure can result in major service expense. Install new components with the same component number or an equivalent component if installation is necessary. Do not use an installation component of lesser quality or substitute design. Torque values must be used as specified during reassembly to make sure of correct retention of these components. 1. Remove the driveshaft. For additional information, refer to Section 205-01 . 2. Remove the axle shafts. For additional information, refer to Axle Shaft in this section. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE252A11.HTM~gen~ref.H... 2014-03-01
+
+---

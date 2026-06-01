@@ -1,0 +1,6 @@
+# General
+**Page:** 136 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 2sur 5 Item Part Number Description 14 5A799 Spring spacer —Four-Wheel Drive (4WD) only Removal and strut tube are gas pressurized and could explode if heated. Failure to follow this instruction may result in serious personal injury. struts can extend unassisted. Failure to follow this instruction may result in serious personal injury. NOTICE: Suspension fasteners are critical parts because they affect performance of vital components and systems and their failure may result in major service expense. New parts must be installed with the same part numbers or equivalent part, if replacement is necessary. Do not use a replacement part of lesser quality or substitute design. Torque values must be used as specified during reassembly to make sure of correct retention of these parts. All vehicles 1. Remove the wheel and tire. For additional information, refer to Section 204-04 . 2. Using a suitable jack, support the axle. 3. Remove the shock absorber lower nut and bolt. (cid:122) Discard the nut and bolt. 4. Remove the 4 U-bolt nuts, the U-bolt plate and the 2 U-bolts. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE242006.HTM~gen~ref.HT... 2014-03-01
+
+---

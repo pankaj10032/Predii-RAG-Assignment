@@ -1,0 +1,6 @@
+# General
+**Page:** 545 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 6sur 11 9. NOTICE: Overspreading may damage the component. Spread the axle housing to the specification. 1. Adjust the Dial Indicator Gauge to zero. 2. Tighten the housing spreader screw to spread the axle housing to the specification. 3. Remove the Dial Indicator Gauge with Holding Fixture. 10. NOTICE: Mark the differential bearing caps Top or Bottom and LH or RH appropriately before removing them. Always install the differential bearing caps in their original positions or damage to the component may occur. Mark and remove the 2 differential bearing caps. 1. Remove the 4 differential bearing cap bolts. 2. Remove the 2 differential bearing caps. 11. NOTE: Use wood blocks to avoid axle housing damage. NOTE: Index-mark the position of the differential bearing shims. The differential bearing shims must be installed in their original locations and positions. Remove the differential carrier from the axle housing. 1. Position the wood blocks. 2. Position and push down on the 2 pry bars. 3. Remove the differential carrier. 4. Remove the Differential Carrier Spreader. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE253011.HTM~gen~ref.HT... 2014-03-01
+
+---

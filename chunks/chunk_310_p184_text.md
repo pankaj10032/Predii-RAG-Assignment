@@ -1,0 +1,6 @@
+# General
+**Page:** 184 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 13sur 15 Item Description 1 First high spot on the tire 2 Second high spot on the tire 5. If the second high spot is still above specification and within 101.6 mm (4 in) of being opposite the first high spot on the wheel, the root cause is probably the wheel (the high spot followed the wheel). Dismount the tire from the wheel, mount the wheel on a balancer and check the wheel runout. If the wheel runout exceeds 1.14 mm (0.045 in), install a new wheel, balance the assembly and install on the vehicle using the Wheel-to-Hub Optimization procedure. Item Description 1 First high spot on the tire 2 Second high spot on the tire 6. NOTE: If the second high spot did not follow the wheel or the tire and the runout is still not within specification, improvements may be made by rotating the tire 90 degrees (one-fourth turn). Draw an arrow on the tire sidewall from the second high spot towards the first high spot (in the shortest direction). (cid:122) Separate the tire beads from the wheel and rotate the tire 90 degrees (one-fourth turn) in the direction of the arrow. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE244003.HTM~gen~ref.HT... 2014-03-01
+
+---

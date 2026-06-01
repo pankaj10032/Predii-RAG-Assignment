@@ -1,0 +1,7 @@
+# Pinpoint Test E: DTCs C1222, C1296, C1297, C1298 and C1299
+
+**Page:** 775 | **Type:** text
+
+Pinpoint Test E: DTCs C1222, C1296, C1297, C1298 and C1299 Refer to Wiring Diagrams Cell 42 , Vehicle Dynamic Systems for schematic and connector information. Normal Operation The wheel speed sensor and tone ring generate a square wave current signal to the ABS module that is proportional to the wheel speed. The ABS module compares the wheel speed inputs from all the wheel speed sensors to determine an impending wheel lockup. Incorrect tire size or tire pressure can set these DTCs as well. DTCs set in the ignition cycle can only be cleared by cycling the ignition off and on once the fault has been corrected. DTC Description Fault Trigger Condition (cid:122) C1222 — This DTC sets in the ignition cycle when the vehicle speed exceeds 20 km/h (12 Speed Wheel mph) or the ABS module detects a difference between wheel speed sensor Mismatch signals. This DTC can also be set by damaged tone rings, mismatched wheel and/or tire sizes or driving the vehicle on one or more deflated tires. (cid:122) C1296 — These DTCs set in the ignition cycle when the vehicle speed exceeds 20 km/h (12 Wheel Speed mph). The appropriate DTC sets if the ABS module does not receive a signal from LF Signal Fault the wheel speed sensor. These DTCs can also be set by an excessive wheel (cid:122) C1297 — speed sensor-to-tone ring air gap or a damaged tone ring, mismatched wheel file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE269003.HTM~gen~ref.HT... 2014-03-01
+
+---

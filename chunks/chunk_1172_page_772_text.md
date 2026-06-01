@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 21sur 58
+
+**Page:** 772 | **Type:** text
+
+2014 F-150 Workshop Manual Page 21sur 58 (cid:122) Disconnect: ABS Module C135 . (cid:122) Disconnect: Suspect Wheel Speed Sensor . No (cid:122) Ignition ON. GO to D5 . (cid:122) Measure the voltage between the suspect wheel speed sensor connector, harness side and ground as follows: Wheel Speed Sensor Circuit C150-1 (LF) VCA03 (VT/WH) C150-2 (LF) RCA17 (YE) C160-1 (RF) VCA05 (GY/VT) C160-2 (RF) RCA19 (VT) C426-1 (RR) VCA06 (WH/OG) C426-2 (RR) RCA20 (BN) C440-1 (LR) VCA04 (BU/OG) C440-2 (LR) RCA18 (BN/GN) (cid:122) Is any voltage present? D5 CHECK THE WHEEL SPEED SENSOR CIRCUITS FOR A SHORT TO GROUND Yes NOTE: Check both circuits for each DTC. GO to D6 . (cid:122) Ignition OFF. (cid:122) Measure the resistance between the wheel speed No sensor connector, harness side and ground as REPAIR the affected circuit(s). CLEAR follows: the DTCs. REPEAT the self-test. Wheel Speed Sensor Circuit C150-1 (LF) VCA03 (VT/WH) C150-2 (LF) RCA17 (YE) C160-1 (RF) VCA05 (GY/VT) C160-2 (RF) RCA19 (VT) C426-1 (RR) VCA06 (WH/OG) C426-2 (RR) RCA20 (BN) C440-1 (LR) VCA04 (BU/OG) file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE269003.HTM~gen~ref.HT... 2014-03-01
+
+---

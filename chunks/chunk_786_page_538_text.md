@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 26sur 27
+
+**Page:** 538 | **Type:** text
+
+2014 F-150 Workshop Manual Page 26sur 27 51. Insert the intermediate shaft and engage the circlip with the differential side gear. 52. Remove the axle assembly from the Transmission Holding Fixture and place it on the bench. 53. NOTE: Remove all of the silicone gasket and make sure the surfaces are free of oil before applying the new silicone gasket. NOTE: The differential housing cover must be installed within 15 minutes of application of the silicone, or new sealant must be applied. If possible, allow one hour before filling with lubricant to make sure the silicone sealant has correctly cured. Apply a continuous bead of sealant, of the specified thickness, to the differential housing cover mounting surface as shown in the illustration. (cid:122) Use silicone gasket and sealant. 54. Install the differential housing cover and the 10 bolts. (cid:122) Tighten to 32 Nm (24 lb-ft). 55. Install the axle assembly. For additional information, refer to Axle Assembly in this section. 56. Remove the fill plug and fill the axle assembly with the specified type and amount of axle lubricant. (cid:122) Tighten the fill plug to 25 Nm (18 lb-ft). file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE253010.HTM~gen~ref.HT... 2014-03-01
+
+---

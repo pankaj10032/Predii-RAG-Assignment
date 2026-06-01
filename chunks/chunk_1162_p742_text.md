@@ -1,0 +1,6 @@
+# General
+**Page:** 742 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 3sur 3 Remove the stoplamp switch. For additional information, refer to Section 417-01 . 9. NOTE: The booster push rod clevis-locking pin is a one-time use only part. Any time the booster push rod clevis-locking pin is removed, a new booster push rod clevis-locking pin should be used. NOTE: Remove the clevis-locking pin by squeezing the locking tabs and pulling outward on the opposite end. Remove and discard the booster push rod clevis-locking pin. 10. Remove the 4 brake booster nuts and remove the brake booster. (cid:122) To access the nuts, fold back the sound insulation. (cid:122) To install, tighten the nuts to 25 Nm (18 lb-ft) following a clockwise pattern starting with the upper left nut. 11. NOTICE: Do not press, pull or otherwise move the brake pedal while installing the stoplamp switch. This switch must be installed with the booster push rod attached to the brake pedal and with the brake pedal in the at-rest position. Installing this switch with the brake pedal in any other position will result in incorrect adjustment and may damage the switch. To install, reverse the removal procedure. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE267004.HTM~gen~ref.HT... 2014-03-01
+
+---

@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 8sur 58
+
+**Page:** 759 | **Type:** text
+
+2014 F-150 Workshop Manual Page 8sur 58 C109D Low Vacuum Condition GO to Pinpoint Test I . Detected C109E Vacuum Sensor Circuit GO to Pinpoint Test I . Fault C109F Vacuum Sensor Signal GO to Pinpoint Test I . Fault C1145 Wheel Speed Sensor GO to Pinpoint Test D . RF Input Circuit Failure C1155 Wheel Speed Sensor GO to Pinpoint Test D . LF Input Circuit Failure C1165 Wheel Speed Sensor GO to Pinpoint Test D . RR Input Circuit Failure C1175 Wheel Speed Sensor GO to Pinpoint Test D . LR Input Circuit Failure C116A ABS Pressure GO to Pinpoint Test G . Transducer / Brake Switch Mismatch C1222 Wheel Speed GO to Pinpoint Test E . Mismatch C1266 ABS Valve Power GO to Pinpoint Test F . Relay Circuit Failure C1278 Steering Wheel Angle This DTC sets when the steering wheel angle sensor data received over 1 and 2 Signal Faulted the HS-CAN is out of range and does not agree with other supporting sensor data. For the 6.2L engine, REFER to Section 211-05 to diagnose any SCCM DTCs. For all others, REFER to Section 211-05 to diagnose any SCCM DTCs. If no SCCM DTCs are present, REFER to Section 211-00A to diagnose any PSCM DTCs. C1280 Yaw Rate Sensor This DTC indicates a concern with the yaw rate sensor which is integral Signal Fault to the Restraints Control Module (RCM). REFER to Section 501-20B to diagnose all the RCM DTCs. If no RCM DTCs are present, GO to
+
+---

@@ -1,0 +1,8 @@
+# Pinpoint Test B: The Adjustable Pedals Are Inoperative/Does Not Operate Correctly —Using the
+Memory 
+**Page:** 711 | **Type:** text | **Parent:** Pinpoint Test B: The Adjustable Pedals Are Inoperative/Does Not Operate Correctly —Using the
+Memory 
+
+Pinpoint Test B: The Adjustable Pedals Are Inoperative/Does Not Operate Correctly —Using the Memory SET Switch or the Remote Keyless Entry (RKE) Transmitter Refer to Wiring Diagrams Cell 127 , Adjustable Pedals for schematic and connector information. Normal Operation When the desired memory position is selected using the memory SET switch or the Remote Keyless Entry (RKE) transmitter, the Driver Seat Module (DSM) communicates the desired pedals position in a message on the Medium Speed Controller Area Network (MS-CAN) bus to the Body Control Module (BCM). The BCM acts as a gateway module, relaying the message to the Steering Column Control Module (SCCM) over the High Speed Controller Area Network (HS-CAN) bus. The SCCM then sends current in one direction to the adjustable pedals motor to move the pedals forward and in another direction (reversed polarity) to move the pedals rearward. The SCCM uses a Hall-effect sensor that is integral to the pedals motor to identify the current pedal position. The SCCM sends a reference voltage along one circuit, through the sensor and back to the SCCM along the signal return circuit. If the vehicle is equipped with the memory feature but the SCCM is incorrectly configured, memory recall may not function correctly when the memory SET switch or the RKE transmitter is used to adjust the pedal position. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE266007.HTM~gen~ref.HT... 2014-03-01
+
+---

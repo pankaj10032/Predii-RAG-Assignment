@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 4
+
+**Page:** 668 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 4 SECTION 206-04: Rear Disc Brake 2014 F-150 Workshop Manual REMOVAL AND INSTALLATION Procedure revision date: 10/25/2013 Brake Pads Material Item Specification Molykote® M77 — 8U7Z-19A506-A Removal specification. Additionally, do not use brake fluid that has been previously drained. Following these instructions will help prevent system contamination, brake component damage and the risk of serious personal injury. information seek medical advice. In the USA or Canada on Ford/Motorcraft products call: 1-800-959- 3673. For additional information, consult the product Material Safety Data Sheet (MSDS) if available. Failure to follow these instructions may result in serious personal injury. possibility of brakes pulling vehicle to one side. Failure to follow this instruction may result in uneven braking and serious personal injury. NOTICE: Do not spill brake fluid on painted or plastic surfaces or damage to the surface may occur. If brake fluid is spilled onto a painted or plastic surface, immediately wash the surface with water. 1. Visual check. Extract the fluid with a syringe. If necessary, remove fluid until the brake master cylinder reservoir is half full. 2. Remove the wheel and tire. For additional information, refer to Section 204-04 . 3. NOTICE: Do not allow the caliper to hang from the brake hose or damage to the hose can occur. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE264005.HTM~gen~ref.HT... 2014-03-01
+
+---

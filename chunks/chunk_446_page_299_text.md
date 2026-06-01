@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 4sur 10
+
+**Page:** 299 | **Type:** text
+
+2014 F-150 Workshop Manual Page 4sur 10 9 4204 Differential assembly 10 4209 Ring gear 10 4209 Drive pinion 11 4663 Pinion bearing alignment shim 12 — Inner pinion bearing cup (part of 4625) 13 4625 Inner pinion bearing 14 4662 Collapsible spacer (part of 4320) 15 — Outer pinion bearing cup (part of 4621) 16 4621 Outer pinion bearing 17 4670 Oil slinger 18 4676 Drive pinion oil seal 19 4851 Drive pinion flange 20 4C121 Drive pinion nut (part of 4320) Removal 1. Remove the drive pinion seal. For additional information, refer to Drive Pinion Flange and Drive Pinion Seal in this section. 2. Remove the differential carrier. For additional information, refer to Differential Carrier in this section. 3. Remove the axle drive pinion shaft oil slinger. 4. Using the Drive Pinion Thread Protector and a soft-faced hammer, drive the pinion assembly out of the outer pinion bearing and remove it through the rear of the differential housing. 5. Remove the outer pinion bearing. 6. Remove the drive pinion collapsible spacer and discard it. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE252A10.HTM~gen~ref.H... 2014-03-01
+
+---

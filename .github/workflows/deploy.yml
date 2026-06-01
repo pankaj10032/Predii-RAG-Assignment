@@ -1,0 +1,374 @@
+name: Deploy to Hugging Face Spaces
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+      - 'ARCHITECTURE.md'
+      - 'RAG-Documentation/**'
+      - '.gitignore'
+      - 'LICENSE'
+  workflow_dispatch:  # Allow manual triggering
+
+env:
+  HF_SPACE_NAME: "pankaj10346/Predii-RAG-Assignment"
+  PYTHON_VERSION: "3.9"
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0  # Full history for better git operations
+        lfs: true       # Support for Git LFS files
+    
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+        cache: 'pip'
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install huggingface_hub
+        if [ -f requirements.txt ]; then
+          pip install -r requirements.txt
+        fi
+    
+    - name: Validate application structure
+      run: |
+        echo "🔍 Validating application structure..."
+        
+        # Check for required files
+        if [ ! -f "app.py" ]; then
+          echo "❌ Error: app.py not found"
+          exit 1
+        fi
+        
+        if [ ! -f "requirements.txt" ]; then
+          echo "❌ Error: requirements.txt not found"
+          exit 1
+        fi
+        
+        # Validate Python syntax
+        python -m py_compile app.py
+        echo "✅ app.py syntax is valid"
+        
+        # Check if Gradio is in requirements
+        if ! grep -q "gradio" requirements.txt; then
+          echo "⚠️ Warning: gradio not found in requirements.txt"
+        fi
+        
+        echo "✅ Application structure validation completed"
+    
+    - name: Create Hugging Face Space configuration
+      run: |
+        echo "📝 Creating Hugging Face Space configuration..."
+        
+        # Create README.md for Hugging Face Space if it doesn't exist
+        if [ ! -f "README.md" ] || ! grep -q "title:" README.md; then
+          cat > README.md << 'EOF'
+        ---
+        title: Predii RAG Assignment
+        emoji: 🤖
+        colorFrom: blue
+        colorTo: green
+        sdk: gradio
+        sdk_version: 4.44.0
+        app_file: app.py
+        pinned: false
+        license: mit
+        short_description: Ford F-150 Service Manual RAG System
+        ---
+        
+        # Ford F-150 Service Manual RAG System
+        
+        A production-ready Retrieval-Augmented Generation (RAG) system for querying Ford F-150 service manual information.
+        
+        ## Features
+        
+        - **Query Rewriting**: Step-back prompting for better retrieval
+        - **Hybrid Search**: Dense (vector) + Sparse (BM25) retrieval
+        - **Cohere Reranking**: Precision ranking of results
+        - **Dynamic Chunk Selection**: 1-20 chunks based on query complexity
+        - **MMR Diversification**: Reduced redundancy in results
+        - **Faithfulness Evaluation**: Quality assurance using LLM-as-judge
+        - **Comprehensive Audit Logging**: Track all queries and responses
+        
+        ## Usage
+        
+        Simply type your question about Ford F-150 suspension and repair procedures in the interface above.
+        
+        ## Technology Stack
+        
+        - **LLM**: OpenAI GPT-4o-mini
+        - **Embeddings**: OpenAI text-embedding-3-large
+        - **Vector DB**: ChromaDB
+        - **Reranking**: Cohere rerank-english-v3.0
+        - **Web Framework**: Gradio
+        EOF
+        fi
+        
+        echo "✅ Hugging Face Space configuration created"
+    
+    - name: Prepare deployment files
+      run: |
+        echo "📦 Preparing deployment files..."
+        
+        # Create .gitignore for Hugging Face if needed
+        if [ ! -f ".gitignore" ]; then
+          cat > .gitignore << 'EOF'
+        __pycache__/
+        *.py[cod]
+        *$py.class
+        *.so
+        .Python
+        build/
+        develop-eggs/
+        dist/
+        downloads/
+        eggs/
+        .eggs/
+        lib/
+        lib64/
+        parts/
+        sdist/
+        var/
+        wheels/
+        *.egg-info/
+        .installed.cfg
+        *.egg
+        MANIFEST
+        .env
+        .venv
+        env/
+        venv/
+        ENV/
+        env.bak/
+        venv.bak/
+        .DS_Store
+        Thumbs.db
+        *.log
+        .pytest_cache/
+        .coverage
+        htmlcov/
+        .tox/
+        .cache
+        nosetests.xml
+        coverage.xml
+        *.cover
+        .hypothesis/
+        .jupyter/
+        .ipynb_checkpoints/
+        EOF
+        fi
+        
+        # Ensure requirements.txt has gradio
+        if ! grep -q "gradio" requirements.txt; then
+          echo "gradio>=4.0.0" >> requirements.txt
+          echo "✅ Added gradio to requirements.txt"
+        fi
+        
+        # List files to be deployed
+        echo "📋 Files to be deployed:"
+        find . -type f -not -path './.git/*' -not -path './.*' | head -20
+        
+        echo "✅ Deployment files prepared"
+    
+    - name: Authenticate with Hugging Face
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      run: |
+        echo "🔐 Authenticating with Hugging Face..."
+        
+        if [ -z "$HF_TOKEN" ]; then
+          echo "❌ Error: HF_TOKEN secret not found"
+          echo "Please add your Hugging Face token as a GitHub secret named 'HF_TOKEN'"
+          exit 1
+        fi
+        
+        # Login to Hugging Face
+        python -c "
+        from huggingface_hub import login
+        import os
+        try:
+            login(token=os.environ['HF_TOKEN'])
+            print('✅ Successfully authenticated with Hugging Face')
+        except Exception as e:
+            print(f'❌ Authentication failed: {e}')
+            exit(1)
+        "
+    
+    - name: Deploy to Hugging Face Spaces
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      run: |
+        echo "🚀 Deploying to Hugging Face Spaces..."
+        
+        python << 'EOF'
+        import os
+        import subprocess
+        from huggingface_hub import HfApi, Repository
+        from pathlib import Path
+        import shutil
+        import tempfile
+        
+        # Configuration
+        space_name = os.environ['HF_SPACE_NAME']
+        token = os.environ['HF_TOKEN']
+        
+        print(f"📡 Deploying to space: {space_name}")
+        
+        try:
+            # Initialize Hugging Face API
+            api = HfApi()
+            
+            # Check if space exists, create if not
+            try:
+                space_info = api.space_info(space_name, token=token)
+                print(f"✅ Space {space_name} exists")
+            except Exception:
+                print(f"📝 Creating new space: {space_name}")
+                api.create_repo(
+                    repo_id=space_name,
+                    token=token,
+                    repo_type="space",
+                    space_sdk="gradio"
+                )
+            
+            # Clone the space repository
+            with tempfile.TemporaryDirectory() as temp_dir:
+                space_path = Path(temp_dir) / "space"
+                
+                print("📥 Cloning space repository...")
+                repo = Repository(
+                    local_dir=str(space_path),
+                    clone_from=f"https://huggingface.co/spaces/{space_name}",
+                    use_auth_token=token
+                )
+                
+                # Copy files to space repository
+                print("📋 Copying files to space...")
+                
+                # Files and directories to copy
+                items_to_copy = [
+                    'app.py',
+                    'requirements.txt',
+                    'README.md',
+                    'preprocessing/',
+                    'retrieval/',
+                    'reranking/',
+                    'utils/',
+                    'chunks/',
+                    'chroma_db/',
+                    'unified_rag_system.py'
+                ]
+                
+                for item in items_to_copy:
+                    src = Path(item)
+                    if src.exists():
+                        dst = space_path / item
+                        if src.is_file():
+                            dst.parent.mkdir(parents=True, exist_ok=True)
+                            shutil.copy2(src, dst)
+                            print(f"  ✅ Copied file: {item}")
+                        elif src.is_dir():
+                            if dst.exists():
+                                shutil.rmtree(dst)
+                            shutil.copytree(src, dst)
+                            print(f"  ✅ Copied directory: {item}")
+                    else:
+                        print(f"  ⚠️  Item not found: {item}")
+                
+                # Commit and push changes
+                print("📤 Committing and pushing changes...")
+                
+                # Check if there are changes
+                result = subprocess.run(
+                    ["git", "status", "--porcelain"],
+                    cwd=space_path,
+                    capture_output=True,
+                    text=True
+                )
+                
+                if result.stdout.strip():
+                    # Add all changes
+                    subprocess.run(["git", "add", "."], cwd=space_path, check=True)
+                    
+                    # Commit changes
+                    commit_message = f"Deploy from GitHub Actions - {os.environ.get('GITHUB_SHA', 'unknown')[:7]}"
+                    subprocess.run(
+                        ["git", "commit", "-m", commit_message],
+                        cwd=space_path,
+                        check=True
+                    )
+                    
+                    # Push changes
+                    subprocess.run(["git", "push"], cwd=space_path, check=True)
+                    
+                    print("✅ Successfully deployed to Hugging Face Spaces!")
+                    print(f"🌐 Your space is available at: https://huggingface.co/spaces/{space_name}")
+                else:
+                    print("ℹ️  No changes detected, skipping deployment")
+                
+        except Exception as e:
+            print(f"❌ Deployment failed: {e}")
+            raise
+        EOF
+    
+    - name: Verify deployment
+      env:
+        HF_TOKEN: ${{ secrets.HF_TOKEN }}
+      run: |
+        echo "🔍 Verifying deployment..."
+        
+        python << 'EOF'
+        import requests
+        import time
+        import os
+        
+        space_name = os.environ['HF_SPACE_NAME']
+        space_url = f"https://huggingface.co/spaces/{space_name}"
+        
+        print(f"🌐 Checking space URL: {space_url}")
+        
+        # Wait a moment for deployment to process
+        time.sleep(10)
+        
+        try:
+            response = requests.get(space_url, timeout=30)
+            if response.status_code == 200:
+                print("✅ Space is accessible")
+                print(f"🎉 Deployment successful! Visit: {space_url}")
+            else:
+                print(f"⚠️  Space returned status code: {response.status_code}")
+        except Exception as e:
+            print(f"⚠️  Could not verify space accessibility: {e}")
+            print("This might be normal for new deployments. Check manually.")
+        
+        print(f"📱 Direct app URL: https://{space_name.replace('/', '-')}.hf.space")
+        EOF
+    
+    - name: Post-deployment summary
+      if: always()
+      run: |
+        echo "📊 Deployment Summary"
+        echo "===================="
+        echo "🏷️  Space Name: ${{ env.HF_SPACE_NAME }}"
+        echo "🌐 Space URL: https://huggingface.co/spaces/${{ env.HF_SPACE_NAME }}"
+        echo "📱 App URL: https://pankaj10346-predii-rag-assignment.hf.space"
+        echo "🔧 Python Version: ${{ env.PYTHON_VERSION }}"
+        echo "📅 Deployed: $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
+        echo "🔗 Commit: ${{ github.sha }}"
+        
+        if [ "${{ job.status }}" = "success" ]; then
+          echo "✅ Deployment Status: SUCCESS"
+        else
+          echo "❌ Deployment Status: FAILED"
+        fi

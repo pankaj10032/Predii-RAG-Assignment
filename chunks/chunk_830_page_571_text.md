@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 21sur 27
+
+**Page:** 571 | **Type:** text
+
+2014 F-150 Workshop Manual Page 21sur 27 2. Position the Dial Indicator Gauge with Holding Fixture and Clutch Housing Gauge tip centrally on a drive tooth. 3. Zero the Dial Indicator. 4. Turn the differential ring gear without turning the drive pinion gear. Record the indicator reading. The allowable backlash is 0.203 mm (0.008 in) to 0.305 mm (0.012 in) and must not vary more than 0.101 mm (0.004 in) between points measured. A backlash variation of more than 0.101 mm (0.004 in) between points checked indicates gear/case runout. (cid:132) To correct for a high or low backlash, proceed as follows. 34. To correct for high or low backlash, increase the thickness of one differential bearing shim and decrease the thickness of the other differential bearing shim by the same amount. Refer to the following tables when adjusting the backlash. Backlash Change Required Thickness Change Required mm Inch mm Inch 0.025 0.001 0.050 0.002 0.050 0.002 0.050 0.002 0.076 0.003 0.101 0.004 0.101 0.004 0.152 0.006 0.127 0.005 0.152 0.006 0.152 0.006 0.203 0.008 0.177 0.007 0.254 0.010 0.203 0.008 0.254 0.010 0.228 0.009 0.304 0.012 0.254 0.010 0.355 0.014 0.279 0.011 0.355 0.014 0.304 0.012 0.406 0.016 file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE253009.HTM~gen~ref.HT... 2014-03-01
+
+---

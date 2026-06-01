@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 2sur 3
+
+**Page:** 341 | **Type:** text
+
+2014 F-150 Workshop Manual Page 2sur 3 0.127 0.005 0.152 0.006 0.152 0.006 0.203 0.008 0.177 0.007 0.254 0.010 0.203 0.008 0.254 0.010 0.228 0.009 0.304 0.012 0.254 0.010 0.355 0.014 0.279 0.011 0.355 0.014 0.304 0.012 0.406 0.016 0.330 0.013 0.457 0.018 0.335 0.014 0.457 0.018 0.381 0.015 0.508 0.020 General Specifications Item Specification Available drive pinion shims in steps of 0.25 mm (0.010 in) 0.254 mm (0.010 in) — 0.965 mm (0.038 in) Electronic Locking Differential (ELD) side gear backlash 0.100-1.000 mm (0.004-0.040 in) Maximum differential case flange ring gear runout 0.076 mm (0.003 in) Maximum variation between ring gear teeth 0.102 mm (0.004 in) Pinion bearing preload 1.8-3.3 Nm (16-29 lb-in) Ring gear backlash 0.203-0.304 mm (0.008-0.012 in) Maximum axle shaft flange runout 0.279 mm (0.011 in) Torque Specifications Description Nm lb-ft lb-in Axle vent 18 — 159 Brake hose bracket bolts 30 22 — Brake tube/parking brake cable bracket bolt 25 18 — RH parking brake cable bracket bolt 30 22 — Differential bearing cap bolts 105 77 — Differential housing cover bolts 45 33 — Differential pinion shaft lock bolt 30 22 — Differential ring gear bolts a — — — Driveshaft flange bolts 103 76 — Electronic Locking Differential (ELD) coil screws 5 — 44 ELD electrical connector bolt 7 — 62 file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE252B01.HTM~gen~ref.H... 2014-03-01
+
+---

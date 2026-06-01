@@ -1,0 +1,7 @@
+# PINPOINT TEST J: THE HILL DESCENT CONTROL SYSTEM IS INOPERATIVE
+
+**Page:** 788 | **Type:** text
+
+PINPOINT TEST J: THE HILL DESCENT CONTROL SYSTEM IS INOPERATIVE NOTICE: Use the correct probe adapter(s) when making measurements. Failure to use the correct probe adapter(s) may damage the connector. Test Step Result / Action to Take J1 CHECK FOR DTCs (cid:122) Connect the scan tool. Yes (cid:122) Ignition ON. For ABS module DTC C2809, GO to (cid:122) Enter the following diagnostic mode on the scan tool: J2 . Self Test —All CMDTCs . (cid:122) Are any ABS module, IPC or communication DTCs For all other ABS module DTCs, present? REFER to the ABS Module DTC Chart. For IPC DTCs, REFER to the Section 413-01 . No System is operating correctly at this time. J2 VISUALLY INSPECT THE HILL DESCENT CONTROL™ SWITCH (cid:122) Inspect the Hill Descent Control™ switch for damage. Yes (cid:122) Verify that the Hill Descent Control™ switch does not INSTALL a new Hill Descent Control™ stick. switch by removing the auxiliary switch (cid:122) Is the Hill Descent Control™ switch damaged or assembly. REFER to the exploded view sticking? in Section 501-12 . PRESS the tab on each side of the switch to remove it from the bezel. After replacing the switch, CLEAR the DTCs and REPEAT the self-test. TEST the system for normal operation. No GO to J3 . J3 ISOLATE THE HILL DESCENT CONTROL™ SWITCH file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE269003.HTM~gen~ref.HT... 2014-03-01
+
+---

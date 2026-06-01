@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 3sur 3
+
+**Page:** 227 | **Type:** text
+
+2014 F-150 Workshop Manual Page 3sur 3 All vehicles 5. NOTE: When 2 connected components slope in the same direction, subtract the smallest number from the larger number to find the U-joint operating angle. When 2 connected components slope in the opposite direction, add the measurements to find the U-joint operating angle. Calculate the difference in the slope of the components to determine the U-joint operating angle. (cid:122) The U-joint operating angle is the angle formed by 2 yokes connected by a cross and bearing kit. Ideally, the operating angles on each connection of the driveshaft must: (cid:132) be equal or within one degree of each other. (cid:132) have a 3 degree maximum operating angle. (cid:132) have at least one-half of one degree continuous operating angle. 6. If the angle is not within specifications, repair or adjust to obtain the correct angle. Inspect the engine mounts, transmission mounts, center support bearing mounting, rear suspension, rear axle, rear axle mounting or the frame for wear or damage. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE250004.HTM~gen~ref.HT... 2014-03-01
+
+---

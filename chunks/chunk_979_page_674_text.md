@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 6
+
+**Page:** 674 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 6 SECTION 206-05: Parking Brake and Actuation 2014 F-150 Workshop Manual DIAGNOSIS AND TESTING Procedure revision date: 10/25/2013 Parking Brake Principles of Operation Parking Brake System The parking brake system is an independent, cable-actuated system controlled by an foot-operated parking brake control that is self adjusting. The parking brake control applies tension to the front parking brake cable and conduit. The front parking brake cable is coupled to the LH rear parking brake cable and conduit which is coupled to the RH rear parking brake cable. The parking brake cable and conduits actuate the parking brake levers, engaging the parking brake shoes with the parking brake drum-in-hat assembly. The system is returned to the released position by pulling the parking brake control release handle. Springs in the parking brake system apply the necessary force to return the system to the unapplied position. The parking brake warning indicator is located in the instrument cluster. It illuminates to signal the driver that the parking brake is applied or to signal a low brake fluid condition. The warning indicator system is diagnosed in Section 413- 01 .
+
+---

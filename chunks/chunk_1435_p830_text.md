@@ -1,0 +1,10 @@
+# Pinpoint Test E .
+B1342 ECU is Faulted INSPECT for a stuck or damaged manual sliding lever and gain
+
+**Page:** 830 | **Type:** text | **Parent:** Pinpoint Test E .
+B1342 ECU is Faulted INSPECT for a stuck or damaged manual sliding lever and gain
+
+
+Pinpoint Test E . B1342 ECU is Faulted INSPECT for a stuck or damaged manual sliding lever and gain control buttons. REPAIR or CLEAR any obstructions or foreign material. REPAIR all other DTCs before repairing B1342. CLEAR the DTCs. TEST the system for normal operation. NOTE: It takes 2 minutes for the Trailer Brake Control (TBC) module to set this DTC due to a stuck manual sliding lever or a stuck gain control button. If the DTC returns, INSTALL a new Trailer Brake Control (TBC) module. REFER to Trailer Brake Control (TBC) Module in this section. B1863 TBC Ground Open Circuit GO to
+
+---

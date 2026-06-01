@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 6
+
+**Page:** 263 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 6 SECTION 205-02A: Rear Drive Axle/Differential —Ford 8.8-Inch Ring Gear 2014 F-150 Workshop Manual GENERAL PROCEDURES Procedure revision date: 10/25/2013 Ring Gear Backlash Adjustment Special Tool(s) Dial Indicator Gauge With Holding Fixture 100-002 (TOOL-4201-C) Installer, Differential Shim 205-220 (T85L-4067-AH) Material Item Specification Motorcraft® High Contrast Hypoid — Gear Marking Compound XG-14 1. Remove the differential housing cover. For additional information, refer to Differential Housing Cover in this section. 2. Install the Dial Indicator Gauge with Holding Fixture and measure the ring gear backlash. (cid:122) If a zero backlash condition occurs or the backlash is not within specification, proceed to Step 3. (cid:122) If the backlash is within specification, proceed to Step 14. 3. Remove the axle shafts. For additional information, refer to Axle Shaft in this section. 4. NOTE: Index-mark the position of the differential bearing caps, as arrows may not be visible. The differential bearing caps must be installed in their original locations and positions. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE252A04.HTM~gen~ref.H... 2014-03-01
+
+---

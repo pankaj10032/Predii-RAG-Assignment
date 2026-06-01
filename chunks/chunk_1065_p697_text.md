@@ -1,0 +1,6 @@
+# General
+**Page:** 697 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 1sur 2 SECTION 206-06: Hydraulic Brake Actuation 2014 F-150 Workshop Manual DESCRIPTION AND OPERATION Procedure revision date: 10/25/2013 Hydraulic Brake Actuation Hydraulic Brakes The hydraulic brake actuation system consists of the following components: (cid:122) Brake master cylinder and fluid reservoir (cid:122) Brake tubes and hoses (cid:122) Brake pedal and bracket (cid:122) Hydraulic Control Unit (HCU) (part of ABS) Adjustable Pedals Adjustable pedals are available as an optional feature on this vehicle. Two systems are available, with or without memory and consist of the following components: (cid:122) Adjustable brake pedal and bracket (cid:122) Adjustable accelerator pedal with motor and attached cable (cid:122) Adjustable pedal switch (cid:122) Steering Column Control Module (SCCM) (cid:122) Memory SET switch (with memory feature only) (cid:122) Driver Seat Module (DSM) (with memory feature only) (cid:122) Body Control Module (BCM) (with memory feature only) (cid:122) Remote Keyless Entry (RKE) (with memory feature only) file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE266002.HTM~gen~ref.HT... 2014-03-01
+
+---

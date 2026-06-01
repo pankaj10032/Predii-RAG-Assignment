@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 2sur 2
+
+**Page:** 722 | **Type:** text
+
+2014 F-150 Workshop Manual Page 2sur 2 commanded memory position is reached. If the SCCM receives a pedals position input during a memory position recall function, the module stops the memory recall and responds to the new pedals position input. When the RKE transmitter is activated, a message is sent over the Medium Speed Controller Area Network (MS-CAN) to the DSM . When the memory SET switch is pressed, the DSM senses continuity to ground on the switch circuit. When the DSM receives either the MS-CAN message or the ground input through the switch circuit, it sends a message over the MS-CAN to the BCM . The BCM acts as a gateway module, relaying the MS-CAN message that was received from the DSM to the SCCM over the High Speed Controller Area Network (HS-CAN). The SCCM then sends voltage over the appropriate circuit to the adjustable pedals motor to adjust the pedals. The SCCM continuously monitors the adjustable pedals motor and circuits for faults. If a fault is detected, the SCCM is capable of setting DTCs. The DSM also controls the driver seat and the exterior mirrors. For information on setting and recalling a memory pedal position, refer to Memory Position Programming in Section 501-10 . file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE266003.HTM~gen~ref.HT... 2014-03-01
+
+---

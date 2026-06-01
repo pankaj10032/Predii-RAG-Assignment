@@ -1,0 +1,10 @@
+# Pinpoint Test A .
+Module . For BCM DTCs, REFER to Section 419-10 .
+(cid:122) Enter the following dia
+**Page:** 796 | **Type:** text | **Parent:** Pinpoint Test A .
+Module . For BCM DTCs, REFER to Section 419-10 .
+(cid:122) Enter the following dia
+
+Pinpoint Test A . Module . For BCM DTCs, REFER to Section 419-10 . (cid:122) Enter the following diagnostic mode on the scan tool: Self Test —BCM . No (cid:122) Is DTC B1676 (or U3003:16 ) or DTC GO to O4 . U3003:17 recorded? O4 CHECK FOR DTC U0140 OR U0140:00 SET IN OTHER MODULES (cid:122) Clear the DTCs. Yes (cid:122) Ignition OFF. INSTALL a new BCM . REFER to Section 419-10 . (cid:122) Ignition ON. TEST the system for normal operation. CLEAR the (cid:122) Wait 10 seconds. DTCs. REPEAT the ABS module self-test (cid:122) Enter the following diagnostic mode on the scan tool: Self Test —All No CMDTCs . INSTALL a new ABS module. REFER to Anti-Lock (cid:122) Is DTC U0140 or U0140:00 set in Brake System (ABS) Module in this section. TEST the more than 1 module? system for normal operation.
+
+---

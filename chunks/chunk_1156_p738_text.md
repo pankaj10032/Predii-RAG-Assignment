@@ -1,0 +1,6 @@
+# General
+**Page:** 738 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 1sur 2 SECTION 206-07: Power Brake Actuation 2014 F-150 Workshop Manual REMOVAL AND INSTALLATION Procedure revision date: 10/25/2013 Brake Booster Vacuum Sensor NOTE: Rear Wheel Drive (RWD) shown, Four-Wheel Drive (4WD) similar. Item Part Number Description 1 — Vacuum sensor electrical connector (part of 12A581) 2 2365 Brake booster vacuum sensor 3 — Hose clamp (part of 9C490) 4 — Vacuum supply hose (part of 9C490) 1. Relieve the vacuum in the brake booster by pressing and releasing the brake pedal a minimum of 5 times with the engine not running. 2. Disconnect the vacuum supply hose from the brake booster vacuum sensor. 3. If equipped, disconnect the Four-Wheel Drive (4WD) vacuum reservoir supply hose from the brake booster vacuum sensor. 4. Disconnect the vacuum sensor electrical connector and remove the vacuum sensor. 5. NOTE: To allow proper drainage of any moisture, the vacuum sensor must be installed in the same position and orientation as removed. To install, reverse the removal procedure. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE267005.HTM~gen~ref.HT... 2014-03-01
+
+---

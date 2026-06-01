@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 1
+
+**Page:** 242 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 1 SECTION 205-01: Driveshaft 2014 F-150 Workshop Manual DESCRIPTION AND OPERATION Procedure revision date: 10/25/2013 Driveshaft NOTE: All driveshafts are balanced. If undercoating the vehicle, protect the driveshaft and U-joints to prevent overspray of any undercoating material. Vehicles have the following types of driveshafts: (cid:122) Front driveshaft with CV joints at the front and rear ends of the driveshaft. The only serviceable part of the front driveshaft is the mounting hardware. The front driveshaft can be balanced by methods described in the General Driveline section. Refer to Section 205-00 . (cid:122) One-piece rear driveshafts with a rear U-joint flange and a slip yoke (cid:122) Two-piece rear driveshafts with a front flanged U-joint or slip yoke, center bearing with a slip joint and a flanged U-joint at the rear Driveshafts are used to transfer movement from the transmission or transfer case to the front or rear axle. The driveshaft is composed of the U-joints, CV joints, connecting shafts and the attaching yokes. Some vehicles are equipped with a center support bearing. The center support bearing is prelubricated and sealed for the life of the bearing. Driveshafts differ in length, diameter and type of yoke to accommodate various wheelbase and powertrain combinations. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE251002.HTM~gen~ref.HT... 2014-03-01
+
+---

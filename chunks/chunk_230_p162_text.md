@@ -1,0 +1,8 @@
+# Pinpoint Test D: The Tire Pressure Monitoring System (TPMS) Warning Indicator Is ON Continuously
+and
+**Page:** 162 | **Type:** text | **Parent:** Pinpoint Test D: The Tire Pressure Monitoring System (TPMS) Warning Indicator Is ON Continuously
+and
+
+PINPOINT TEST D: THE TPMS WARNING INDICATOR IS ON CONTINUOUSLY AND THE MESSAGE CENTER DISPLAYS LOW TIRE PRESSURE NOTE: Use only the Digital Tire Pressure Gauge any time tire pressures are measured to be sure that accurate values are obtained. NOTE: If a warranty case is opened for an actual TPMS fault, document and include the actual tire pressure data in all warranty communications. Test Step Result / Action to Take D1 CHECK FOR LOW TIRE PRESSURE (cid:122) Using the Digital Tire Pressure Gauge, measure and record Yes the air pressure in all 4 tires. The system is operating (cid:122) Adjust the pressure for those found to be below the correctly at this time. The specification listed on the VC label. concern was caused by low tire (cid:122) Activate each sensor at least twice with the training tool or pressure. customer activation tool to make sure the TPM module gets the latest air pressure data. Refer to Tire Pressure Monitoring No System (TPMS) Sensor Activation or drive the vehicle for at GO to D2 . least 2 minutes above 32 km/h (20 mph) to clear the low pressure warning. Do not train the sensors at this time. (cid:122) Has the TPMS warning indicator gone out? D2 CHECK FOR SPARE TIRE IN USE Yes NOTE: The spare tire is not programmable even if it is REPAIR and REMOUNT the file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE244004.HTM~gen~ref.HT... 2014-03-01
+
+---

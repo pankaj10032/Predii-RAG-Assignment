@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 2sur 3
+
+**Page:** 249 | **Type:** text
+
+2014 F-150 Workshop Manual Page 2sur 3 2. Index-mark the driveshaft flange to the pinion flange and the driveshaft flange to the transmission flange to maintain alignment during installation. 3. Remove and discard the 4 driveshaft flange bolts. (cid:122) To install, tighten the 4 new bolts to 103 Nm (76 lb-ft). 4. NOTICE: The driveshaft flange fits tightly on the flange pilot. Never hammer on the driveshaft or any of its components to disconnect the driveshaft flange from the flange pilot. Pry only in the area shown with a suitable tool to disconnect the driveshaft flange from the flange pilot or damage to the driveshaft flange can occur. Using a suitable tool as shown, disconnect the driveshaft flange from the flange pilot and remove the driveshaft. 5. NOTICE: The driveshaft flange fits tightly on the pinion flange pilots. To make sure that the driveshaft flanges seat squarely on the pinion flange pilots, tighten the driveshaft flange bolts evenly in a cross pattern or damage to the flanges can occur. NOTE: If new bolts are not available, coat the threads of the original driveshaft flange bolts with threadlock and sealer. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE251006.HTM~gen~ref.HT... 2014-03-01
+
+---

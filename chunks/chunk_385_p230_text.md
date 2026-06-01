@@ -1,0 +1,6 @@
+# General
+**Page:** 230 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 3sur 6 Driveshaft Balancing —Using the Mastertech® Series MTS 4000 Driveline Balance and NVH Analyzer (Vetronix) All vehicles 1. Install the Mastertech® Series MTS 4000 Driveline Balance and NVH Analyzer (Vetronix) to the vehicle. 2. Working under the vehicle, install an accelerometer. The accelerometer can be attached and mounted near either the transmission or differential end of the driveshaft. 3. Clean an area of the driveshaft and install the reflective tape, then install the photo-tachometer sensor. The sensor should be placed at approximately a 20-degree angle from perpendicular to the surface of the reflective tape. Make sure the sensor does not get moved during the balance procedure. 1. Reflective tape. 2. Photo-tachometer sensor. 4. Using the Mastertech® Series MTS 4000 Driveline Balance and NVH Analyzer (Vetronix), run a driveshaft balance test with the driveshaft unmodified. Vehicles with tapped pinion flanges 5. Label the tapped holes in the pinion flange numerically, starting at the top hole as 1. Mark the remaining holes 2, 3 and 4. Label in the direction of rotation. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE250006.HTM~gen~ref.HT... 2014-03-01
+
+---

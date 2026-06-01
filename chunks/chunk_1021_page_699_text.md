@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 2
+
+**Page:** 699 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 2 SECTION 206-06: Hydraulic Brake Actuation 2014 F-150 Workshop Manual DIAGNOSIS AND TESTING Procedure revision date: 10/25/2013 Diagnostic Trouble Code (DTC) Charts Steering Column Control Module (SCCM) DTC Chart DTC Description Action B1368:11 Adjustable Pedal Position Feedback GO to Pinpoint Test C . Sensor: Circuit Short To Ground B1368:12 Adjustable Pedal Position Feedback GO to Pinpoint Test C . Sensor: Circuit Short To Battery B1369:09 Pedal Adjustment Switch: INSTALL a new brake pedal control switch. REFER Component Failure to Brake Pedal Control Switch in this section. CLEAR the DTCs. REPEAT the self-test. If DTC B1369:09 returns, INSTALL a new Steering Column Control Module (SCCM). REFER to Section 211-05 . CLEAR the DTCs. REPEAT the self-test. TEST the system for normal operation. B137D:18 Pedal Adjustment Motor: Circuit GO to Pinpoint Test A . Current Below Threshold B137D:19 Pedal Adjustment Motor: Circuit GO to Pinpoint Test A . Current Above Threshold B137D:71 Pedal Adjustment Motor: Actuator GO to Pinpoint Test A . Stuck B1D36:09 Turn Indicator Switch: Component REFER to Section 417-01 . Failure All other — REFER to Section 211-05 . SCCM DTCs file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE266005.HTM~gen~ref.HT... 2014-03-01
+
+---

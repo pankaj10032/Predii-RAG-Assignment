@@ -1,0 +1,40 @@
+Summarize all torque specifications for the engine components.
+Give me a complete overview of fluid capacities for this vehicle.
+List all part numbers related to the braking system.
+Summarize the electrical specifications for the charging system.
+Provide a complete list of maintenance intervals and specifications.
+How to replace the brake pads on this vehicle?
+What are the steps to change the engine oil and filter?
+What is the procedure for installing a new water pump?
+How to remove the drive shaft safely?
+What are the steps to replace the spark plugs?
+How to install a new timing belt?
+What is the procedure for bleeding the brake system?
+How to replace the air filter?
+What are the steps to adjust valve clearance?
+How to remove and install a new alternator?
+Compare the torque specifications for cylinder head bolts vs. exhaust manifold bolts.
+What is the difference between engine oil capacity with and without the filter?
+Compare the part numbers for front and rear brake pads.
+What is the difference between automatic transmission fluid (ATF) and differential gear oil capacities?
+Compare the battery CCA rating vs. the alternator output rating.
+When should the engine oil be changed?
+What is the recommended time interval for spark plug replacement?
+Before what mileage should the timing belt be replaced?
+After how many years should the coolant be flushed?
+When was the last update to these torque specifications?
+What is the torque specification for engine cylinder head bolts?
+What is the engine oil capacity (with filter)?
+What is the OEM part number for the air filter?
+What is the battery cold-cranking amps (CCA) rating?
+What is the valve clearance specification (intake and exhaust)?
+What is the recommended tire pressure (front and rear)?
+What is the wheel lug nut torque value?
+What is the brake fluid capacity for the master cylinder?
+What is the part number for front brake pads?
+What is the alternator output rating in amperes?
+What is the piston ring gap specification?
+What is the vehicle curb weight?
+What is the fuel tank capacity in liters?
+What is the differential gear oil capacity?
+What is the recommended engine oil viscosity (e.g., 5W-30)?

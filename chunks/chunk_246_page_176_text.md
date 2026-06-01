@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 5sur 15
+
+**Page:** 176 | **Type:** text
+
+2014 F-150 Workshop Manual Page 5sur 15 NOTE: For suspension system and additional alignment diagnosis, refer to Section 204- 00 . Condition Possible Sources Action (cid:122) Inner (cid:122) Excessive toe out (cid:122) GO to Pinpoint Test A . edge/shoulder and/or negative wear camber (cid:122) Incorrect wheel and (cid:122) GO to Pinpoint Test A . tire assembly rotation intervals (cid:122) High-speed (cid:122) GO to Pinpoint Test A . cornering (cid:122) Outer (cid:122) Excessive toe in (cid:122) GO to Pinpoint Test B . edge/shoulder and/or positive wear camber (cid:122) Incorrect wheel and (cid:122) GO to Pinpoint Test B . tire assembly rotation intervals (cid:122) High-speed (cid:122) GO to Pinpoint Test B . cornering (cid:122) Heel/toe wear (cid:122) Excessive toe (cid:122) ROTATE the wheel and tire in/out assemblies. REFER to Wheel and (cid:122) Incorrect wheel and Tire Rotation in this section. CHECK tire assembly the alignment, ADJUST as rotation intervals necessary. (cid:122) Diagonal wear (cid:122) Excessive toe (cid:122) GO to Pinpoint Test C . in/out (cid:122) Incorrect tire (cid:122) GO to Pinpoint Test C . rotation intervals (cid:122) Loose, worn or (cid:122) REFER to Section 204-00 . damaged suspension components
+
+---

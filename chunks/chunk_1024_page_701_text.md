@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 2
+
+**Page:** 701 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 2 SECTION 206-06: Hydraulic Brake Actuation 2014 F-150 Workshop Manual GENERAL PROCEDURES Procedure revision date: 10/25/2013 Adjustable Pedal Indexing NOTICE: The adjustable pedal system must be indexed whenever the brake pedal assembly or accelerator pedal assembly is installed or damage to the components may result. 1. NOTE: Make sure the electrical connector is connected to the adjustable pedal motor. Disconnect the accelerator pedal-to-brake pedal cable from the adjustable brake pedal gear set. 2. Operate the accelerator pedal to the full rearward position. 3. Connect the adjustable pedal motor drive cable to the adjustable brake pedal drive. 4. Operate the adjustable pedals to the full forward position. 5. Disconnect the adjustable pedal motor drive cable from the adjustable brake pedal assembly. 6. Operate the adjustable accelerator pedal to the full forward position. 7. Connect the adjustable pedal motor drive cable to the adjustable brake pedal drive. 8. Check that the brake and accelerator pedals can be fully adjusted forward and rearward. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE266008.HTM~gen~ref.HT... 2014-03-01
+
+---

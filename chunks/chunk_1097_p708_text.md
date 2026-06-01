@@ -1,0 +1,6 @@
+# General
+**Page:** 708 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 4sur 16 (cid:122) Are the resistances less than 5 ohms? A5 CHECK THE ADJUSTABLE PEDALS MOTOR CIRCUITS FOR AN OPEN (cid:122) Disconnect: Adjustable Pedals Motor C2159 (vehicles with Yes memory) or C2003 (vehicles without memory). GO to A6 . (cid:122) Vehicles with memory, measure the resistance between SCCM C2414B, harness side and adjustable pedals motor C2159, No harness side as follows: REPAIR the affected circuit (s). CLEAR the DTCs. REPEAT the self-test. TEST SCCM Circuit Adjustable Pedals Motor the system for normal C2414B-4 CPP01 (WH/OG) C2159-2 operation. C2414B-7 CPP02 (BN) C2159-1 (cid:122) Vehicles without memory, measure the resistance between SCCM C2414B, harness side and adjustable pedal motor C2003, harness side as follows: SCCM Circuit Adjustable Pedals Motor C2414B-4 CPP01 (WH/OG) C2003-2 C2414B-7 CPP02 (BN) C2003-1 (cid:122) Are the resistances less than 5 ohms? A6 CHECK THE ADJUSTABLE PEDALS MOTOR CIRCUITS FOR A SHORT TO GROUND (cid:122) Measure the resistance between ground and: Yes (cid:132) SCCM C2414B-4, circuit CPP01 (WH/OG), harness side. GO to A7 . (cid:132) SCCM C2414B-7, circuit CPP02 (BN), harness side. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE266007.HTM~gen~ref.HT... 2014-03-01
+
+---

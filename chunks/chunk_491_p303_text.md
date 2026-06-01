@@ -1,0 +1,6 @@
+# General
+**Page:** 303 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 8sur 10 position the Adapter. 7. Install the Adapter. 1. Position the gauge tube. 2. Install the 2 differential bearing caps. 3. Install the 4 differential bearing cap bolts. (cid:132) Tighten to 112 Nm (83 lb-ft). 8. NOTE: Drive pinion bearing adjustment shims must be flat and clean. NOTE: A slight drag should be felt for correct drive pinion bearing adjustment shim selection. Do not attempt to force the drive pinion bearing adjustment shim between Adapter and gauge tube. This will minimize selection of a drive pinion bearing adjustment shim thicker than required, which results in a deep tooth contact in final assembly of integral axle assemblies. Use a drive pinion bearing adjustment shim as a gauge for drive pinion bearing adjustment shim selection. (cid:122) After the correct drive pinion bearing adjustment shim thickness has been determined, remove all of the Adapters. 9. Using the Shaft Bearing Cone Installer and Bearing Oil Seal Plate and a shop press, drive the inner file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE252A10.HTM~gen~ref.H... 2014-03-01
+
+---

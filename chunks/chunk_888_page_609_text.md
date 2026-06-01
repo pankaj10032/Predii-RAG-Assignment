@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 2sur 3
+
+**Page:** 609 | **Type:** text
+
+2014 F-150 Workshop Manual Page 2sur 3 to the next test step. For all other vehicles, apply the parking brake to identify if the problem is in the front or rear brake. No (cid:122) Apply the parking brake to identify if the problem is in the front or rear GO to A5 . brake. At highway speeds of 89-97 km/h (55-60 mph), lightly apply the parking brake until the vehicle slows down. Release the parking brake immediately after the test. (cid:122) Is there a vibration/shudder? A5 CHECK THE FRONT SUSPENSION (cid:122) Check the front suspension. Refer to Section 204-00 . Yes (cid:122) Are all the suspension components in satisfactory condition? GO to A6 . No REPAIR or INSTALL new components as necessary. TEST the system for normal operation. A6 CHECK THE FRONT BRAKE DISCS (cid:122) Inspect the front brake discs. Refer to Brake System Inspection in this Yes section. GO to A7 . (cid:122) Road test the vehicle. (cid:122) Is the vibration/shudder present? No The concern has been repaired. A7 CHECK THE REAR SUSPENSION (cid:122) Check the rear suspension. Refer to Section 204-00 . Yes (cid:122) Are all the suspension components in satisfactory condition? INSPECT the rear brake discs. REFER to Brake System
+
+---

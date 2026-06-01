@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 2
+
+**Page:** 59 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 2 SECTION 204-01B: Front Suspension —Four Wheel Drive (4WD) 2014 F-150 Workshop Manual SPECIFICATIONS Procedure revision date: 10/25/2013 Material Item Specification Fill Capacity Motorcraft® Metal Brake Parts — — Cleaner (US) / Motorcraft® Brake Parts Cleaner (Canada) PM-4-A or PM-4-B (US); CPM-4 (Canada) Motorcraft® Metal Surface Prep — — ZC-31-A Torque Specifications Description Nm lb-ft lb-in Brake disc shield bolts 17 — 150 Brake hose bracket bolt 12 — 106 Halfshaft nut 40 30 — Integrated Wheel End (IWE) bolts 12 — 106 Lower arm forward and rearward nuts 350 258 — Lower ball joint nut 175 129 — Shock absorber lower nut (SVT Raptor) 550 406 — Shock absorber lower nuts 90 66 — Shock absorber upper mount nuts 63 46 — Shock rod nut 55 41 — Skid plate bolts 48 35 — Stabilizer bar bracket nuts 55 41 — Stabilizer bar link nuts 70 52 — Stabilizer bar link nuts (SVT Raptor) 80 59 — Tie-rod end nut 115 85 — Upper arm-to-frame nuts 150 111 — Upper ball joint nut 115 85 — Wheel bearing and wheel hub bolts 175 129 — Wheel speed sensor bolt 18 — 159 Wheel speed sensor harness bracket bolt 12 — 106 file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE241B01.HTM~gen~ref.H... 2014-03-01
+
+---

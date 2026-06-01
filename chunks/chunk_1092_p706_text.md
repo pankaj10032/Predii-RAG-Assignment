@@ -1,0 +1,6 @@
+# General
+**Page:** 706 | **Type:** text | **Parent:** General
+
+PINPOINT TEST A: THE ADJUSTABLE PEDALS ARE INOPERATIVE/DOES NOT OPERATE CORRECTLY —USING THE BRAKE PEDAL CONTROL SWITCH NOTICE: Use the Flex Probe Kit for all test connections to prevent damage to the wiring terminals. Do not use standard multi-meter probes. Test Step Result / Action to Take A1 CHECK THE ADJUSTABLE PEDALS MOTOR AND CABLE INSTALLATION (cid:122) Check the adjustable pedals motor and cable for correct Yes installation. GO to A2 . (cid:122) Is the motor and cable correctly installed? No CORRECT the adjustable pedals motor installation. REFER to Section 310-02 . CLEAR the DTCs. REPEAT the self-test. TEST the system for normal operation. A2 INSPECT FOR FOREIGN MATERIAL (cid:122) Inspect the adjustable brake pedal and accelerator assemblies Yes for foreign material causing a binding condition. GO to A3 . (cid:122) Are the pedal assemblies free from foreign material? No REMOVE the foreign material. CLEAR the DTCs. REPEAT the self-test. TEST the system for normal operation. A3 CHECK FOR VOLTAGE AT THE SCCM (cid:122) Disconnect: SCCM C2414A and C2414B. Yes file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE266007.HTM~gen~ref.HT... 2014-03-01
+
+---

@@ -1,0 +1,6 @@
+# General
+**Page:** 252 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 2sur 3 Removal and Installation NOTE: For automatic transmissions, when installing a new driveshaft, match the yellow dots on the driveshaft to the yellow dots on the pinion flange and the output shaft to maintain balance during installation. 1. With the vehicle in NEUTRAL, position it on a hoist. For additional information, refer to Section 100- 02 . 2. Index-mark the driveshaft flange to the pinion flange to maintain alignment during installation. 3. Index-mark the driveshaft to the extension housing to maintain alignment during installation. 4. Remove and discard the 4 driveshaft flange bolts. (cid:122) To install, tighten the 4 new bolts to 103 Nm (76 lb-ft). 5. NOTICE: The driveshaft flange fits tightly on the flange pilot. Never hammer on the driveshaft or any of its components to disconnect the driveshaft flange from the flange pilot. Pry only in the area shown with a suitable tool, to disconnect the driveshaft flange from the flange pilot or damage to the driveshaft flange can occur. Using a suitable tool as shown, disconnect the driveshaft flange from the flange pilot. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE251007.HTM~gen~ref.HT... 2014-03-01
+
+---

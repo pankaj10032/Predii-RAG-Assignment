@@ -1,0 +1,7 @@
+# Inspection and Verification
+
+**Page:** 172 | **Type:** text
+
+Inspection and Verification unless all drive wheels are elevated off the ground. Drive wheels in contact with ground could cause unexpected vehicle movement. Failure to follow this instruction may result in serious personal injury. Verify the customer concern by carrying out a road test on a smooth road. If any vibrations are apparent, GO to Symptom Chart -NVH . To maximize tire performance, inspect for signs of incorrect inflation and uneven wear, which may indicate a need for balancing, rotation or front suspension alignment. Correct tire pressure and driving techniques have an important influence on tire life. Heavy cornering, excessively rapid acceleration and unnecessary sharp braking increase tire wear. Replacement tires must follow the recommended: (cid:122) tire sizes. (cid:122) speed rating. (cid:122) load range. (cid:122) tire construction type. The use of any other tire/wheel size, load range or type can seriously affect: (cid:122) ride. (cid:122) handling. (cid:122) speedometer/odometer calibration. (cid:122) vehicle ground clearance. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE244003.HTM~gen~ref.HT... 2014-03-01
+
+---

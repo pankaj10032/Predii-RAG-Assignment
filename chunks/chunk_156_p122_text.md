@@ -1,0 +1,6 @@
+# General
+**Page:** 122 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 2sur 6 4. 5. 6. NOTE: Be sure not to damage the ball joint boot when installing the Ball Joint Separator. Special Tool(s): Separator, Ball Joint 204-592. 7. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE241B07.HTM~gen~ref.H... 2014-03-01
+
+---

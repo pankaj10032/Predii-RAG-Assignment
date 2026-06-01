@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 2
+
+**Page:** 130 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 2 SECTION 204-02: Rear Suspension 2014 F-150 Workshop Manual REMOVAL AND INSTALLATION Procedure revision date: 10/25/2013 Leaf Spring Tip Isolator 1. Position and lift the vehicle on a hoist to unload the leaf spring assembly. Refer to Section 100-02 . 2. NOTE: It is very important to use a non-metallic wedge or corrosion protection can be compromised. Use a non-metallic wedge (such as a rubber door stop or rubber coated pry bar) near the leaf tip insulator and wedge the leaf spring apart. 3. Using a locally obtained pvc cable saw, cut the top of the leaf tip insert off and remove the insert. 4. Thoroughly rinse the leaf tip insert area with brake clean and a clean shop rag to remove debris from the leaf tip insert seating area. 5. If required trim service tip insert post to aid installation between the leaves. 6. Once dry, install the new leaf spring tip insert and remove the non-metallic wedge. 7. Repeat steps 2-6 for remaining leaf tip inserts. 8. Lower the vehicle and wash the leaf spring assembly to remove any remaining dirt or debris using a power washer or direct stream of water. 9. Using shop air, dry the leaf spring assembly thoroughly. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE242004.HTM~gen~ref.HT... 2014-03-01
+
+---

@@ -1,0 +1,6 @@
+# General
+**Page:** 232 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 5sur 6 1. Test weight. 2. Measure in this direction. 3. Driveshaft diameter. 4. Directional rotation. 5. Balance weight relative to test weight centerline. (cid:122) The results are displayed with respect to the location to where the test weight was placed. All vehicles 10. Using the Mastertech® Series MTS 4000 Driveline Balance and NVH Analyzer (Vetronix), run a third test to verify the repair. Driveshaft Balancing —Hose Clamp Method 1. Install 1 or 2 hose clamps on the driveshaft, near the rear. Position of the hose clamp head(s) can be determined through trial and error. 2. Mark the rear of the driveshaft into 4 approximately equal sectors and number the marks 1 through 4. Install a hose clamp on the driveshaft with its head at position No. 1, as shown in the figure below. Check for vibration at road speed. Recheck with the clamp at each of the other positions to find the position that shows minimum vibration. If 2 adjacent positions show equal improvement, position the clamp head between them. 3. If the vibration persists, add a second clamp at the same position and recheck for vibration. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE250006.HTM~gen~ref.HT... 2014-03-01
+
+---

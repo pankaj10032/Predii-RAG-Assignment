@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 12sur 14
+
+**Page:** 289 | **Type:** text
+
+2014 F-150 Workshop Manual Page 12sur 14 differential case so they mesh with the differential side gear teeth. 13. NOTE: It will probably be necessary to loosen or tighten the forcing screw to allow the differential pinion gears and differential side gears to rotate. Inspect the Differential Rotator into the pinion shaft bore, and turn the differential case. This will cause the differential pinion gears to engage the differential side gear and "walk" into the differential case. Rotate the differential case until the pinion shaft mating holes are lined up exactly with the holes in the differential pinion gears. 14. Remove the special tools. 15. NOTE: If a new differential pinion shaft lock bolt is unavailable, coat the threads of the original differential pinion shaft lock bolt with threadlock prior to installation. Install the differential pinion shaft, then a new differential pinion shaft lock bolt finger-tight. 16. Check the torque required to rotate one differential side gear. (cid:122) Mount the differential assembly and Differential Clutch Gauge in a vise. (cid:122) The initial minimum break-away torque, if original clutch plates are used, must be within specification. The minimum rotating torque required to keep the differential side gear turning file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE252A14.HTM~gen~ref.H... 2014-03-01
+
+---

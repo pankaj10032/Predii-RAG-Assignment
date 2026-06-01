@@ -1,0 +1,6 @@
+# General
+**Page:** 430 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 2sur 4 Item Number Description 1 — Differential side gears (part of kit 4880) 2 — Differential side gear thrust washers (part of kit 4880) 3 — Differential pinion gears (part of kit 4880) 4 — Differential pinion thrust washers (part of kit 4880) 5 — Differential pinion spring (part of kit 4880) 6 4209 Differential ring gear 7 — Differential pinion shaft lock bolt (part of kit 4880) 8 4211 Differential pinion shaft 9 4204 Differential case 10 4216 Differential ring gear bolt (12 required) 11 4221 Differential bearing 12 — Cam-ring (part of kit 4880) 13 — Plunger (part of kit 4880) 14 — Electronic Locking Differential (ELD) coil (part of kit 4880) 15 — ELD coil screw (part of kit 4880) (6 required) 16 — Stopper (part of kit 4880) (3 required) Removal 1. Remove the differential carrier. For additional information, refer to Differential Carrier in this section. 2. Using the Bearing Puller plate, Step Plate and a suitable press, remove the LH differential bearing. 3. Remove and discard the 6 screws and 3 stoppers that hold the Electronic Locking Differential (ELD) coil in place and remove the coil. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE252B11.HTM~gen~ref.H... 2014-03-01
+
+---

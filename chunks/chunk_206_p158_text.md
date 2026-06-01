@@ -1,0 +1,8 @@
+# Inspection and Verification
+1. Verify the customer concern. Keep the following items in mind when di
+**Page:** 158 | **Type:** text | **Parent:** Inspection and Verification
+1. Verify the customer concern. Keep the following items in mind when di
+
+Inspection and Verification 1. Verify the customer concern. Keep the following items in mind when diagnosing any TPMS related issue: (cid:122) The tire pressure sensors are not designed to be used with aftermarket wheels. The use of run-flat tires (tires with steel body cord plies in the tire sidewall) that are not originally equipped, may block the TPMS signal and are not recommended. (cid:122) Non-OEM modifications made to the vehicle may result in false TPMS warnings. (cid:122) Swapping wheels on vehicles with the same TPMS sensors sets a fault if the sensors are not trained. Refer to Tire Pressure Monitoring System (TPMS) Sensor Training in this section. (cid:122) The tire pressure calibrations in the TPM for the system cannot be changed to use lower tire pressures than those listed on the Vehicle Certification (VC) label. (cid:122) Certain non-OEM electronic equipment may cause RFI and false TPMS warnings. To aid in diagnosis, obtain information from the owner regarding any equipment that has been added or was in use at the time the TPMS fault occurred. (cid:122) It may be necessary to disconnect any electronic add-on equipment to verify its impact on TPMS operation. For intermittent cases, it may be necessary to ask the customer to provide portable electronic equipment to verify its impact on the system. 2. Visually inspect for obvious signs of mechanical or electrical damage.
+
+---

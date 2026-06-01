@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 4sur 5
+
+**Page:** 138 | **Type:** text
+
+2014 F-150 Workshop Manual Page 4sur 5 (cid:122) Tighten until snug. 3. Position the spring and install a new spring shackle-to-frame bolt and nut. (cid:122) Tighten until snug. 4. Position the U-bolt plate and install the new U-bolts and nuts. (cid:122) Tighten until snug. 5. Install a new spring-to-frame bolt and nut. (cid:122) Tighten until snug. 6. Install a new shock absorber lower bolt and nut. (cid:122) Tighten until snug. 7. Install the wheel and tire. For additional information, refer to Section 204-04 . 8. Lower the vehicle until the weight of the vehicle is resting on the wheels and tires (curb height). 9. Tighten the spring shackle-to-frame nut to 185 Nm (136 lb-ft). 10. Tighten the spring-to-frame nut to 350 Nm (258 lb-ft). 11. If necessary, tighten the spring-to-shackle nut to 185 Nm (136 lb-ft). 12. For the LH spring, raise the fuel tank. For additional information, refer to Section 310-01 . 13. For the RH spring, install the muffler. For additional information, refer to Section 309-00 . 14. Tighten the U-bolt nuts in 4 stages. (cid:122) Stage 1: Tighten in a cross pattern to 35 Nm (26 lb-ft). (cid:122) Stage 2: Tighten in a cross pattern to 70 Nm (52 lb-ft). (cid:122) Stage 3: Tighten in a cross pattern to 100 Nm (74 lb-ft). (cid:122) Stage 4: Tighten in a cross pattern to 133 Nm (98 lb-ft). 15. Tighten the shock absorber lower nut to 90 Nm (66 lb-ft). file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE242006.HTM~gen~ref.HT... 2014-03-01
+
+---

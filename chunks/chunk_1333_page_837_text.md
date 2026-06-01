@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 11sur 24
+
+**Page:** 837 | **Type:** text
+
+2014 F-150 Workshop Manual Page 11sur 24 (cid:122) Ignition OFF. Yes (cid:122) Disconnect: Trailer Tow Connector C439A . INSTALL a new trailer tow (cid:122) Ignition ON. connector. CLEAR the DTCs. (cid:122) Have an assistant press the manual slider switch fully to the TEST the system for normal left with a gain of 10 on the TBC module. operation. (cid:122) Measure the voltage between the trailer tow connector C439A-3, circuit CAT19 (BU), harness side and ground. No GO to B7 . (cid:122) Is the voltage greater than 10 volts? B7 CHECK THE TBC MODULE PWM OUTPUT CIRCUIT FOR AN OPEN (cid:122) Ignition OFF. Yes (cid:122) Measure the resistance between the trailer tow connector GO to B8 . C439A-3, circuit CAT19 (BU), harness side and TBC module C2142-14, circuit CAT19 (BU), harness side. No REPAIR the circuit. TEST the system for normal operation. (cid:122) Is the resistance less than 5 ohms? B8 CHECK THE BATTERY VOLTAGE TO THE TBC MODULE (cid:122) Ignition OFF. Yes (cid:122) Measure the voltage between TBC module C2142-8, circuit GO to B9 . SBB17 (RD), harness side and ground. No VERIFY the BJB fuse 17 (30A) is OK. If OK, REPAIR circuit SBB17 (RD) for an open. TEST the system for normal operation. (cid:122) Is the voltage greater than 10 volts? file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE26A002.HTM~gen~ref.H... 2014-03-01
+
+---

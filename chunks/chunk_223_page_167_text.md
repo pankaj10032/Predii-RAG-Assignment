@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 15sur 19
+
+**Page:** 167 | **Type:** text
+
+2014 F-150 Workshop Manual Page 15sur 19 No Before installing a TPM module : If sensors do not respond to the Tire Pressure Monitor Activation Tool, MOVE the vehicle to rotate the wheels at least one-fourth of a turn and ATTEMPT to activate the same sensors again. If the sensors still fail to train, ATTEMPT to train the sensors with the vehicle doors open. If the sensors still fail to train, INSTALL a new TPM module. REFER to Tire Pressure Monitor (TPM) Module in this section. TEST the system for normal operation. If the concern is still present, GO to F5 . F5 CHECK FOR CORRECT BCM OPERATION (cid:122) Disconnect all the BCM electrical Yes connectors. NOTE: The TPMS sensors may not be present. (cid:122) Check the connectors for: DISMOUNT the tire. REFER to Wheel and Tire in this (cid:132) corrosion section. VERIFY the TPMS sensors are present and (cid:132) damaged pins mounted to the wheels. If missing, INSTALL new TPMS (cid:132) pushed-out pins sensors. (cid:122) Connect all the BCM connectors and make sure that they are seated If the TPMS sensors are present, INSTALL a new BCM . correctly. REFER to Section 419-10 . CLEAR the DTCs. REPEAT (cid:122) Operate the system and verify the the self-test. concern is still present. (cid:122) Is the concern still present? No The system is operating correctly at this time. The concern may have been caused by a loose or corroded connector. CLEAR the DTCs. REPEAT the self-test.
+
+---

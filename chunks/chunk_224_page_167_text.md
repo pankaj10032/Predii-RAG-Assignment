@@ -1,0 +1,7 @@
+# Pinpoint Test G: One Or More TPMS Sensors Do Not Train And No DTCs Are Present
+
+**Page:** 167 | **Type:** text
+
+Pinpoint Test G: One Or More TPMS Sensors Do Not Train And No DTCs Are Present NOTE: If the vehicle has been stationary for more than 30 minutes, the sensors go into a sleep mode to conserve battery power. It becomes necessary to wake them up so they transmit the latest tire pressure information to the TPM module. For additional information, refer to Tire Pressure Monitoring System (TPMS) Sensor Activation in this section. Normal Operation The TPM module monitors the tire pressure of all 4 road tires. The wheel-mounted tire pressure sensors transmit signals via radio frequency to the Tire Pressure Monitor (TPM) module. The TPM module is a radio receiver that collects the tire pressure data from the tire pressure sensors. The TPMS sensor radio transmissions are sent approximately once every 60 seconds when the vehicle speed exceeds 32 km/h (20 mph). The BCM learns the position on the vehicle of each TPMS sensor through the training process. Refer to Tire Pressure Monitoring System (TPMS) Sensor Training in this section for the complete sensor training procedure. This pinpoint test is intended to diagnose the following: (cid:122) TPMS sensors (cid:122) Radio Frequency Interference (RFI)
+
+---

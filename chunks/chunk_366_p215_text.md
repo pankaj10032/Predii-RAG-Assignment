@@ -1,0 +1,6 @@
+# General
+**Page:** 215 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 12sur 18 (cid:122) Damaged seal (cid:122) Worn seal journal surface Any damage to the seal bore (dings, dents, gouges or other imperfections) distorts the seal casing and allows leakage past the outer edge of the drive pinion seal. The drive pinion seal can be torn, cut or gouged if it is not installed correctly. The spring that holds the drive pinion seal against the pinion flange may be knocked out and allow fluid to pass the lip. Metal chips trapped at the sealing lip can cause oil leaks. These can cause a wear groove on the drive pinion flange and result in pinion seal wear. When a seal leak occurs, install a new drive pinion seal and check the vent to make sure it is clean and free of foreign material. A new drive pinion flange must be installed if any of these conditions exist. Drive Pinion Nut NOTICE: Install the drive pinion nut to the correct torque specifications or damage to the differential components may occur. On some high-mileage vehicles, oil may leak through the threads of the drive pinion nut. This condition can be corrected by installing a new nut and applying threadlock and sealer on the threads and nut face.
+
+---

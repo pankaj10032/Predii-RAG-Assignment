@@ -1,0 +1,6 @@
+# General
+**Page:** 182 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 11sur 15 (cid:122) Rotate the wheel and tire assembly (or wheel) to locate the low spot. (cid:122) Adjust the runout gauge to read 0. (cid:122) Rotate the wheel and tire assembly one complete revolution to make sure the low spot has been found and the dial indicator returns to 0. 6. While slowly and constantly rotating the wheel and tire assembly (or wheel), measure the radial runout. (cid:122) Note the variance (runout) from 0 on the dial of the gauge. (cid:122) If the runout reading of a wheel and tire assembly is greater than 1.14 mm (0.045 in), locate and temporarily mark the high spot and runout reading on the sidewall of the tire and carry out the Match Mounting procedure to optimize the wheel and tire assembly. (cid:122) If the runout reading of a wheel and tire assembly is 1.14 mm (0.045 in) or less, permanently mark the high spot and the runout reading on the inner sidewall of the tire for reference during future wheel and tire service. Balance the assembly and install the wheel and tire on the vehicle using the Wheel-to-Hub Optimization procedure. Match Mounting NOTE: Road Force® values in illustrations are shown in pounds. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE244003.HTM~gen~ref.HT... 2014-03-01
+
+---

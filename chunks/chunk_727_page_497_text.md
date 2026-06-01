@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 4sur 6
+
+**Page:** 497 | **Type:** text
+
+2014 F-150 Workshop Manual Page 4sur 6 8. Inspect the pinion flange for burrs and damage. Inspect the end of the pinion flange that contacts the pinion bearing cone, pinion nut counterbore and drive pinion seal surface for nicks. Discard the pinion flange if damaged. 9. NOTICE: Do not damage the axle housing. Force up on the metal flange of the drive pinion seal. Install gripping pliers and strike with a hammer to remove the drive pinion seal. 10. Verify the splines on the drive pinion gear are free of burrs. If burrs are evident, remove them with a fine crocus cloth. 11. Clean the drive pinion seal bore. Installation 1. NOTE: Lubricate the drive pinion seal lips with axle lubricant. NOTE: Drive pinion seal must be fully seated all the way around or drive pinion seal damage will occur. Using the Drive Pinion Oil Seal Installer, install the drive pinion seal. 2. NOTICE: Never use a hammer or install the pinion flange with power tools. NOTE: Lubricate the pinion flange splines with axle lubricant. Align the index marks made during removal and, using the Drive Pinion Flange Installer, install the pinion flange. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE253005.HTM~gen~ref.HT... 2014-03-01
+
+---

@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 3
+
+**Page:** 665 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 3 SECTION 206-04: Rear Disc Brake 2014 F-150 Workshop Manual REMOVAL AND INSTALLATION Procedure revision date: 10/25/2013 Brake Flexible Hose — Outer Removal specification. Additionally, do not use brake fluid that has been previously drained. Following these instructions will help prevent system contamination, brake component damage and the risk of serious personal injury. information seek medical advice. In the USA or Canada on Ford/Motorcraft products call: 1-800-959- 3673. For additional information, consult the product Material Safety Data Sheet (MSDS) if available. Failure to follow these instructions may result in serious personal injury. NOTICE: Do not spill brake fluid on painted or plastic surfaces or damage to the surface may occur. If brake fluid is spilled onto a painted or plastic surface, immediately wash the surface with water. NOTE: Removal steps in this procedure may contain installation details. 1. With the vehicle in NEUTRAL, position it on a hoist. For additional information, refer to Section 100- 02 . 2. NOTE: RH shown LH similar. Discard the specified component. Follow local disposal regulations. 1. To install, tighten to 30 Nm (22 lb-ft). 2. NOTE: Use new copper washers. To install, tighten to 35 Nm (26 lb-ft). file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE264008.HTM~gen~ref.HT... 2014-03-01
+
+---

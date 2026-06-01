@@ -1,0 +1,10 @@
+# Table on Page 573
+**Page:** 573 | **Type:** table | **Parent:** Suspension System Manual
+
+**Table 1 - Page 573**
+
+| 2 —RED | 6.1722-6.1849 | 0.2430-0.2435 |
+| --- | --- | --- |
+| 1 —RED | 6.1214-6.1341 | 0.2410-0.2415 |
+
+---

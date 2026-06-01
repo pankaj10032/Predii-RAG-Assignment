@@ -1,0 +1,10 @@
+# Ride Height Measurement in this
+springs section. INSTALL new springs as
+necessary. Refer to the appr
+**Page:** 2 | **Type:** text | **Parent:** Ride Height Measurement in this
+springs section. INSTALL new springs as
+necessary. Refer to the appr
+
+Ride Height Measurement in this springs section. INSTALL new springs as necessary. Refer to the appropriate section in Group 204 for the procedure. (cid:122) Worn front (cid:122) INSTALL new shock absorbers as shock absorbers necessary. Refer to the appropriate section in Group 204 for the procedure. (cid:122) Abnormal/incorrect (cid:122) Incorrect tire (cid:122) ADJUST the tire pressure. REFER tire wear pressure (rapid to the Vehicle Certification (VC) center rib or label. REFER to Section 204-04 inner and outer Diagnosis and Testing for further edge wear) tire wear diagnosis. (cid:122) Incorrect tire (cid:122) REFER to Section 100-03 . rotation intervals (cid:122) High-speed (cid:122) REFER to Section 204-04 cornering Diagnosis and Testing for further (cid:122) Excessive front tire wear diagnosis. or rear toe (inner or outer edge wear) (cid:122) Excessive negative or positive camber (inner or outer edge wear) (cid:122) Front or rear (cid:122) INSPECT the front and rear suspension suspension system. REPAIR or components INSTALL new suspension components as necessary. Refer to the appropriate section in Group 204 for the procedure. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE240003.HTM~gen~ref.HT... 2014-03-01
+
+---

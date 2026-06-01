@@ -1,0 +1,6 @@
+# General
+**Page:** 599 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 1sur 2 SECTION 206-00: Brake System —General Information 2014 F-150 Workshop Manual SPECIFICATIONS Procedure revision date: 10/25/2013 Material Item Specification Fill Capacity Motorcraft® High Performance WSS-M6C62-A 1,420 ml DOT 3 Motor Vehicle Brake or WSS-M6C65- (3.0 pt) Fluid (US) / Motorcraft® Brake A1 Fluid -Heavy Duty DOT 3 (Canada) PM-1-C (US); CPM-1-C (Canada) Motorcraft® Metal Brake Parts — — Cleaner (US) / Motorcraft® Brake Parts Cleaner (Canada) PM-4-A or PM-4-B (US); CPM-4 (Canada) Motorcraft® Silicone Brake ESE-M1C171-A — Caliper Grease and Dielectric Compound XG-3-A General Specifications Item Specification Brake Disc Front brake disc minimum thickness 32 mm (1.259 in) Rear brake disc minimum thickness 23.0 mm (0.906 in) Brake Pads Maximum brake pad taper wear (in any direction) 3.0 mm (0.118 in) Minimum brake pad thickness 3.0 mm (0.118 in) Torque Specifications Description Nm lb-ft lb-in Brake caliper bleed screw 10 — 89 Master cylinder primary brake tube fittings 28 21 — Master cylinder secondary brake tube fitting 20 — 177 file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE260001.HTM~gen~ref.HT... 2014-03-01
+
+---

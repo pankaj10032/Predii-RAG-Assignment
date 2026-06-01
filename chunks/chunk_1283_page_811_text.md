@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 2sur 2
+
+**Page:** 811 | **Type:** text
+
+2014 F-150 Workshop Manual Page 2sur 2 NOTICE: Do not swap ABS modules between vehicles. Brake fluid pressure sensor calibration varies depending on vehicle configuration. Swapping ABS modules between vehicles with different calibrations causes a DTC to set in the ABS module that cannot be cleared. 1. If a new ABS module is being installed, connect the scan tool and upload the module configuration information from the ABS module. For additional information on configuration, refer to Programmable Module Installation (PMI) in Section 418-01 . 2. Remove the Air Cleaner (ACL) outlet pipe. For additional information, refer to Section 303-12 . 3. Disconnect the ABS module electrical connector. 4. NOTICE: Pull the ABS module straight back until the coil packs and motor connector clear the Hydraulic Control Unit (HCU) or damage to the ABS module may result. Remove the 4 ABS module screws and the ABS module. (cid:122) To install, tighten to 3 Nm (27 lb-in). 5. To install, reverse the removal procedure. (cid:122) When installing a new ABS module, it must be configured (using vehicle as-built data or module configuration information retrieved earlier in this procedure). For additional information on configuration, refer to PMI in Section 418-01 . file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE269004.HTM~gen~ref.HT... 2014-03-01
+
+---

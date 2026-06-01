@@ -1,0 +1,6 @@
+# General
+**Page:** 549 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 10sur 11 9. Install a new stub shaft seal. For additional information, refer to Stub Shaft Pilot Bearing and Seal in this section. 10. Install a new circlip on the intermediate shaft end. 11. Insert the intermediate shaft and engage the circlip with the differential side gear. 12. Remove the axle assembly from the Transmission Holding Fixture and place it on the bench. 13. NOTE: Remove all of the silicone gasket and make sure the surfaces are free of oil before applying the new silicone gasket. NOTE: The differential housing cover must be installed within 15 minutes of application of the silicone, or new sealant must be applied. If possible, allow one hour before filling with lubricant to make sure the silicone sealant has correctly cured. Apply a continuous bead of sealant, of the specified thickness, to the differential housing cover mounting surface as shown in the illustration. (cid:122) Use silicone gasket and sealant. 14. Install the differential housing cover and the 10 differential housing cover bolts. (cid:122) Tighten to 32 Nm (24 lb-ft). file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE253011.HTM~gen~ref.HT... 2014-03-01
+
+---

@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 3
+
+**Page:** 340 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 3 SECTION 205-02B: Rear Drive Axle/Differential —Ford 9.75-Inch Ring Gear 2014 F-150 Workshop Manual SPECIFICATIONS Procedure revision date: 10/25/2013 Material Item Specification Fill Capacity Additive Friction EST-M2C118- 118 ml (4 oz) to be Modifier A installed before axle XL-3 (US); CXL-3 lubricant —Not to be (Canada) used with Electronic Locking Differentials (ELD) Maximum — — Strength Retaining Compound Loctite® 638™ Motorcraft® High — — Contrast Hypoid Gear Marking Compound XG-14 Motorcraft® SAE WSL-M2C192- 2.84L (6.0 pt) —ELD 75W-140 A and GL-5 only Synthetic Rear 2.60L (5.5 pt) —Non Axle Lubricant Traction-Lok equipped XY-75W140-QL 2.48L (5.25 pt) — (US); CXY- Traction-Lok equipped 75W140-1L (Canada) Premium Long- ESA-M1C75-B — Life Grease XG-1-C or XG-1-K (US); CXG-1-C (Canada) Silicone Gasket WSE-M4G323- — and Sealant A4 TA-30 Threadlock and WSK-M2G351- — Sealer A5 TA-25 Rear Axle Backlash Shim Adjustment Table Backlash Change Required Thickness Change Required mm In mm In 0.025 0.001 0.050 0.002 0.050 0.002 0.050 0.002 0.076 0.003 0.101 0.004 0.101 0.004 0.152 0.006 file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE252B01.HTM~gen~ref.H... 2014-03-01
+
+---

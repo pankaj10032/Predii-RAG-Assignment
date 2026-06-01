@@ -1,0 +1,6 @@
+# General
+**Page:** 806 | **Type:** text | **Parent:** General
+
+2014 F-150 Workshop Manual Page 55sur 58 R4 CHECK THE SWITCH INPUT CIRCUIT FOR A SHORT TO GROUND (cid:122) Disconnect: Battery Negative Cable . Yes (cid:122) Disconnect: IPC C220 . GO to R5 . (cid:122) Measure the resistance between stability/traction control switch C2355-4, circuit CCA15 (YE/GY), No harness side and ground. REPAIR circuit CCA15 (YE/GY). TEST the system for normal operation. (cid:122) Is the resistance greater than 10,000 ohms? R5 CHECK THE SWITCH INPUT CIRCUIT FOR AN OPEN (cid:122) Measure the resistance between stability/traction Yes control switch C2355-4, circuit CCA15 (YE/GY), GO to R6 . harness side and IPC C220-18, circuit CCA15 (YE/GY), harness side. No REPAIR circuit CCA15 (YE/GY). TEST the system for normal operation. (cid:122) Is the resistance less than 5 ohms? R6 CHECK THE SWITCH GROUND CIRCUIT FOR AN OPEN (cid:122) Measure the resistance between stability/traction Yes control switch C2355-1, circuit GD133 (BK), harness GO to R7 . side and ground. No REPAIR circuit GD133 (BK). TEST the system for normal operation. (cid:122) Is the resistance less than 5 ohms? file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE269003.HTM~gen~ref.HT... 2014-03-01
+
+---

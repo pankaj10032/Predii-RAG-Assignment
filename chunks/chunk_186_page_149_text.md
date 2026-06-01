@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 5sur 7
+
+**Page:** 149 | **Type:** text
+
+2014 F-150 Workshop Manual Page 5sur 7 2. NOTICE: It is important to pull the valve stem and Tire Pressure Monitoring System (TPMS) sensor assembly through the wheel rim hole in a direction parallel to the valve stem hole axis. If the assembly is pulled through at an angle, damage to the valve stem and sensor assembly may occur. NOTICE: Use care not to damage the wheel surface when installing the valve stem and Tire Pressure Monitoring System (TPMS) sensor assembly. Lubricate the valve stem with soapy water and install the valve stem and TPMS sensor assembly into the wheel using a block of wood and a suitable valve stem installer. 3. Make sure the valve stem rubber is fully seated against the wheel. 4. NOTE: Lubricate the tire beads using a suitable fast-drying, corrosion-inhibiting tire bead lubricant. NOTE: Do not mount the tire at this time. Position the wheel on the turntable of the tire machine, then lubricate and position the bottom bead of the tire on the wheel. 5. Position the wheel to align the valve stem with the machine arm, at the 6 o'clock position, and mount file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE244010.HTM~gen~ref.HT... 2014-03-01
+
+---

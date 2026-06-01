@@ -1,0 +1,7 @@
+# PINPOINT TEST H: DTC B1251:00
+
+**Page:** 168 | **Type:** text
+
+PINPOINT TEST H: DTC B1251:00 Test Step Result / Action to Take H1 TRAIN THE TPMS SENSORS TO DETERMINE THE INOPERATIVE SENSOR file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE244004.HTM~gen~ref.HT... 2014-03-01
+
+---

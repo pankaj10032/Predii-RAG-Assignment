@@ -1,0 +1,8 @@
+# Pinpoint Test P: DTCs C1280, C1282, C1516, C1963, C1975, C2770, U0151 and U0452
+Refer to Wiring Diag
+**Page:** 796 | **Type:** text | **Parent:** Pinpoint Test P: DTCs C1280, C1282, C1516, C1963, C1975, C2770, U0151 and U0452
+Refer to Wiring Diag
+
+Pinpoint Test P: DTCs C1280, C1282, C1516, C1963, C1975, C2770, U0151 and U0452 Refer to Wiring Diagrams Cell 42 , Vehicle Dynamic Systems for schematic and connector information. Normal Operation The ABS module uses information received from several sensors (wheel speed sensors, steering wheel rotation sensor, stability/traction control system sensors, etc.) to determine if vehicle stability, traction or roll warrants ESC or RSC® interaction. If an event is going to occur, the ABS module adjusts the brake torque at specific wheels and the PCM reduces engine torque to make the vehicle more stable. Once the ABS module has determined that the stability event has been corrected, it returns the brake and engine torque to normal and continues to monitor the vehicle. DTCs set in the ignition cycle can only be cleared by cycling the ignition off and on once the fault has been corrected. The Restraints Control Module (RCM) measures the yaw rate and vehicle acceleration, then sends the signal through a secondary, dedicated Controller Area Network (CAN) to the ABS module. The ABS module uses this information for AdvanceTrac® and RSC® system operation. The ABS module also compares this information to information it receives from other sensors (brake pedal input, steering wheel) to determine how valid the information is and to determine if an instability event is about to occur. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE269003.HTM~gen~ref.HT... 2014-03-01
+
+---

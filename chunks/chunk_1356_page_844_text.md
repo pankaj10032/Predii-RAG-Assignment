@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 18sur 24
+
+**Page:** 844 | **Type:** text
+
+2014 F-150 Workshop Manual Page 18sur 24 NOTE: A trailer must be connected to the 7-pin trailer connector for DTC B1863 to set during the on- demand self-test. Test Step Result / Action to Take F1 CHECK THE TBC MODULE GROUND CIRCUIT FOR AN OPEN (cid:122) Ignition OFF. Yes (cid:122) Disconnect: TBC Module C2142 . GO to F2 . (cid:122) Measure the resistance between TBC module C2142- 3, circuit GD138 (BK/WH), harness side and ground. No REPAIR the circuit. CLEAR the DTCs. REPEAT the self-test. (cid:122) Is the resistance less than 5 ohms? F2 CHECK FOR CORRECT TBC MODULE OPERATION (cid:122) Disconnect the TBC module connector. Yes (cid:122) Check for: INSTALL a new TBC module. REFER (cid:132) corrosion to Trailer Brake Control (TBC) Module (cid:132) damaged pins in this section. TEST the system for (cid:132) pushed-out pins normal operation. (cid:132) broken harness wire (cid:132) broken connector No (cid:122) Connect the TBC module connector and make sure it The system is operating correctly at seats correctly. this time. The concern may have been (cid:122) Operate the system and verify the concern is still caused by a loose or corroded present. connector. TEST the system for normal (cid:122) Is the concern still present? operation.
+
+---

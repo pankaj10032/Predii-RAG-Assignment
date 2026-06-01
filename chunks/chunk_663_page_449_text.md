@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 1sur 2
+
+**Page:** 449 | **Type:** text
+
+2014 F-150 Workshop Manual Page 1sur 2 SECTION 205-03: Front Drive Axle/Differential 2014 F-150 Workshop Manual SPECIFICATIONS Procedure revision date: 10/25/2013 Material Item Specification Fill Capacity Motorcraft® SAE 80W-90 WSP-M2C197- 1.66L Premium Rear Axle Lubricant A (3.5 pt) XY-80W90-QL (US); CXY- 80W90-1L (Canada) Additive Friction Modifier EST-M2C118-A 4.0 oz XL-3 (US); CXL-3 (Canada) Premium Long-Life Grease ESA-M1C75-B — XG-1-C or XG-1-K (US); CXG-1- C (Canada) Silicone Gasket and Sealant WSE-M4G323- — TA-30 A4 Threadlock and Sealer WSK-M2G351- — TA-25 A5 General Specifications Item Specification Backlash Specifications Ring gear backlash 0.204-0.305 mm (0.008-0.012 in) Ring gear maximum backlash between teeth 0.101mm (0.004 in) Clearance Specifications Differential case maximum runout 0.076 mm (0.003 in) Housing spreader adapter thread 12.5 mm (0.500 in) engagement Maximum differential housing spread 0.762 mm (0.030 in) Lubricant Fill Level Checks Front axle Lubricant level 9.56 mm (0.38 in) below bottom of differential housing fill hole Rotational Torque Ranges Pinion bearing torque preload 1.8-3.3 Nm (16-29 lb-in) Torque Specifications Description Nm lb-ft Axle housing tube bolts 73 54 Axle housing tube bushing bolt 175 129 file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE253001.HTM~gen~ref.HT... 2014-03-01
+
+---

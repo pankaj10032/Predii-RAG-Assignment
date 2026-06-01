@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 14sur 18
+
+**Page:** 217 | **Type:** text
+
+2014 F-150 Workshop Manual Page 14sur 18 when traction is established. Use light throttle on starting to provide maximum traction. 4. If, with unequal traction, both wheels slip, the limited slip front axle has done all it can possibly do. 5. In extreme cases of differences in traction, the wheel with the least traction may spin after the Torsen® has transferred as much torque as possible to the non-slipping wheel. Pinion Flange Runout Check —Circular NOTICE: Pinion bearing preload must be reset if the pinion nut has been loosened or removed for pinion flange reindexing or replacement or damage to the component may occur. 1. Raise the vehicle on a twin-post hoist that supports the rear axle. 2. Remove the driveshaft. Refer to Section 205-01 . 3. Check the pinion flange for damage. 4. Position the Driveshaft Clamp Plate and Drive Pinion Flange Runout Gauge on the pinion flange. Item Part Number Description 1 — Pilot (part of 205-319) (T92L-4851-B) 2 354845 Pinion nut 3 205-319 Gauge, Drive Pinion Flange Runout (T92L-4851-B) 4 — Bolts (2 required) (part of 205-320) (T92L-4851-C) 5 205-320 Plate, Driveshaft Clamp (T92L-4851-C) 6 4851 Pinion flange 5. Position the Driveshaft Clamp Plate and Drive Pinion Flange Runout Gauge onto the pinion flange. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE250003.HTM~gen~ref.HT... 2014-03-01
+
+---

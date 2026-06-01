@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 12sur 14
+
+**Page:** 383 | **Type:** text
+
+2014 F-150 Workshop Manual Page 12sur 14 Insert the Differential Rotator into the pinion shaft bore, and turn the differential case. This will cause the differential pinion gears to engage the differential side gears and "walk" into the differential case. Rotate the differential case until the pinion shaft mating holes are lined up exactly with the holes in the differential pinion gears. 13. Remove the Differential Gauge. 14. Install the 2 new differential bearings using the Differential Carrier Bearing Installer. 15. Check the torque required to rotate one differential side gear. (cid:122) Install the Differential Gauge with the 1/2-inch drive hole as shown. (cid:122) The initial break-away torque, if original clutch plates are used, must be at least the minimum specification. The rotating torque required to keep the differential side gear turning with new clutch plates may vary. Electronic Locking Differential (ELD) equipped vehicles and all vehicles equipped with 3.55, 3.73, and 4.10 ratio gear sets 16. NOTE: The differential flange and ring gear flange must be free of any old retaining compound material. Make sure both surfaces are clean and free of oil, dust and debris. Failure to clean the surfaces can result in ring gear runout concerns. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE252B15.HTM~gen~ref.H... 2014-03-01
+
+---

@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 15sur 28
+
+**Page:** 474 | **Type:** text
+
+2014 F-150 Workshop Manual Page 15sur 28 8. Install the Drive Pinion Gauge Tube. 1. Position the Drive Pinion Gauge Tube. 2. Install the 2 differential bearing caps. 3. Install the 4 bolts. (cid:122) Tighten to 105 Nm (77 lb-ft). 9. NOTE: Use only flat, clean drive pinion bearing adjustment shims. NOTE: Do not attempt to force the shim between the gauge block adapter and the gauge tube adapter. A slight drag indicates correct shim selection. Use a drive pinion bearing adjustment shim as a gauge for shim selection. (cid:122) Check the adjustment shim thickness between the gauge block adapter and the gauge tube adapter. (cid:122) After determining the correct shim thickness, remove the Drive Pinion Gauge Tube. 10. NOTE: The same pinion bearings from the previous steps must be used. Install the pinion bearing. (cid:122) Place the drive pinion bearing adjustment shim on the pinion gear. (cid:122) Using a suitable press and the Drive Pinion Bearing Cone Installer, press the pinion bearing until it is firmly seated on the pinion gear. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE253012.HTM~gen~ref.HT... 2014-03-01
+
+---

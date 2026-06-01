@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 18sur 27
+
+**Page:** 568 | **Type:** text
+
+2014 F-150 Workshop Manual Page 18sur 27 21. NOTICE: Do not loosen the pinion nut to reduce drive pinion bearing preload under any circumstance. If it is necessary to reduce drive pinion bearing preload, install a new drive pinion collapsible spacer and pinion nut or damage to the component may occur. Install the Drive Pinion Flange Holding Fixture and tighten the pinion nut. For additional information, refer to the torque specifications in the Specifications portion of this section. (cid:122) Rotate the drive pinion gear occasionally to make sure the drive pinion bearings are seating correctly. Take frequent drive pinion bearing preload readings by rotating the drive pinion gear with a Nm (lb-in) torque wrench. 22. Press the left and right differential bearing on the differential carrier. 1. Position the differential bearing. 2. Using the Differential Side Bearing Installer, press the differential bearing on the differential carrier. (cid:122) Repeat for the other side. 23. Install the differential ring gear. 1. Place the differential ring gear on the differential assembly. 2. Hand-start 3 new ring gear bolts to align the holes in the differential ring gear and the differential assembly. 3. Place the differential carrier and differential ring gear onto the press bed blocks with the differential ring gear teeth facing downward. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE253009.HTM~gen~ref.HT... 2014-03-01
+
+---

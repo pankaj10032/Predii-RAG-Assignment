@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 2sur 6
+
+**Page:** 347 | **Type:** text
+
+2014 F-150 Workshop Manual Page 2sur 6 Remove the 4 bearing cap bolts and 2 caps. 5. If a zero backlash condition had occurred, add 0.50 mm (0.020 in) to the RH side shim and subtract 0.50 mm (0.020 in) from the LH side shim to allow a backlash indication. Install the 2 bearing caps and 4 bolts. (cid:122) Tighten to 105 Nm (77 lb-ft). (cid:122) Go back to Step 2. 6. To correct for high or low backlash, increase the thickness of one differential bearing shim and decrease the thickness of the other differential bearing shim by the same amount. Refer to the following tables when adjusting the backlash. Backlash Change Required Thickness Change Required mm Inch mm Inch 0.025 0.001 0.050 0.002 0.050 0.002 0.050 0.002 0.076 0.003 0.101 0.004 0.101 0.004 0.152 0.006 0.127 0.005 0.152 0.006 0.152 0.006 0.203 0.008 0.177 0.007 0.254 0.010 0.203 0.008 0.254 0.010 0.228 0.009 0.304 0.012 0.254 0.010 0.355 0.014 0.279 0.011 0.355 0.014 0.304 0.012 0.406 0.016 0.330 0.013 0.457 0.018 0.335 0.014 0.457 0.018 0.381 0.015 0.508 0.020 Differential Shim Size Chart 4067 Dimension A Stripes and Color Code mm Inch file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE252B04.HTM~gen~ref.H... 2014-03-01
+
+---

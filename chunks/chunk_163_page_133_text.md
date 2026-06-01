@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 2sur 3
+
+**Page:** 133 | **Type:** text
+
+2014 F-150 Workshop Manual Page 2sur 3 Item Part Number Description 1 W506545 Shock absorber lower bolt 2 W520214 Shock absorber lower nut 3 18080 Shock absorber 4 W506545 Shock absorber upper bolt 5 W520214 Shock absorber upper nut 6 18159 Shock absorber shield 7 18A149-B Shock absorber shield bolt (3 required) 8 18A149-C Shock absorber shield washer and strut tube are gas pressurized and could explode if heated. Failure to follow this instruction may result in serious personal injury. struts can extend unassisted. Failure to follow this instruction may result in serious personal injury. NOTICE: Suspension fasteners are critical parts because they affect performance of vital components and systems and their failure may result in major service expense. New parts must be installed with the same part numbers or equivalent part, if replacement is necessary. Do not use a replacement part of lesser quality or substitute design. Torque values must be used as specified during reassembly to make sure of correct retention of these parts. All Vehicles 1. With the vehicle in NEUTRAL, position it on a hoist. For additional information, refer to Section 100- file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE242005.HTM~gen~ref.HT... 2014-03-01
+
+---

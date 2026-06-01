@@ -1,0 +1,7 @@
+# Pinpoint Test S: Poor Vehicle Tracking During Anti-Lock Function
+
+**Page:** 807 | **Type:** text
+
+Pinpoint Test S: Poor Vehicle Tracking During Anti-Lock Function Refer to Wiring Diagrams Cell 42 , Vehicle Dynamic Systems for schematic and connector information. Normal Operation The ABS module uses input from several different sensors (wheel speed sensors, Brake Pedal Position (BPP) switch, sensor cluster, etc.) to determine if an ABS event is necessary. If an ABS event is necessary, the ABS module commands the hydraulic pump motor on and the Hydraulic Control Unit (HCU) to actuate the appropriate solenoids. During an ABS event, the front and rear end of the vehicle should track true to the direction of travel along the vehicle centerline unless driver input dictates otherwise. Other items that could cause uneven braking during an ABS event are; an internal issue with the HCU , an issue with the base brake system (caliper, brake pads, etc.) or worn out suspension components. The operating voltage required for ABS module, hydraulic pump and isolation valve operation is between 10 and 17 volts. This pinpoint test is intended to diagnose the following: (cid:122) Air in hydraulic brake system (cid:122) Low tire pressure (cid:122) Base brake system (cid:122) HCU
+
+---

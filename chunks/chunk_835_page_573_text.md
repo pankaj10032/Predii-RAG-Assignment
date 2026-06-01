@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 23sur 27
+
+**Page:** 573 | **Type:** text
+
+2014 F-150 Workshop Manual Page 23sur 27 1 —ORNG 6.2223-6.2357 0.2450-0.2455 2 —RED 6.1722-6.1849 0.2430-0.2435 1 —RED 6.1214-6.1341 0.2410-0.2415 35. Remove the 4 differential bearing cap bolts. (cid:122) Remove the differential carrier. 36. Measure the thickness of the selected right and left bearing shims. 37. To establish differential bearing preload, increase both the left and right differential bearing shim thickness by 0.203 mm (0.008 in). 38. Install the Dial Indicator Gauge with Holding Fixture, Clutch Housing Gauge and Differential Carrier Spreader. 39. NOTICE: Overspreading may damage the differential housing. NOTE: Tighten and loosen the differential carrier spreader screw to normalize the housing spreader adapters prior to taking the final Dial Indicator reading. Spread the differential housing to the specification. 1. Adjust the Dial Indicator Gauge with Holding Fixture and Clutch Housing Gauge to zero. 2. Tighten the screw until spreading the differential housing to the specification. 3. Remove the Dial Indicator Gauge with Holding Fixture and Clutch Housing Gauge. 40. NOTICE: To avoid galling the case, insert shims with a light coating of grease before installing the differential assembly. If not carried out in this order, the aluminum housing may be damaged. Place the differential bearing shims in the differential housing. file:///C:/TSO/tsocache/VDTOM2_10764/SE2~ruesp~aeirn4l~esfisle=SE253009.HTM~gen~ref.HT... 2014-03-01
+
+---

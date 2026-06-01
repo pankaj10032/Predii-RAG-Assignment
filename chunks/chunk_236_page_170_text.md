@@ -1,0 +1,7 @@
+# 2014 F-150 Workshop Manual Page 18sur 19
+
+**Page:** 170 | **Type:** text
+
+2014 F-150 Workshop Manual Page 18sur 19 CMDTCs (cid:122) Using a scan tool, carry out the Yes TPM module self-test. GO to I4 . (cid:122) Using a scan tool, clear the TPM module DTCs. No (cid:122) Ignition OFF. The system is operating correctly at this time. The DTC may (cid:122) Wait 10 seconds. have been set due to high network traffic or an intermittent (cid:122) Ignition ON. fault condition. (cid:122) Using a scan tool, carry out the TPM module self-test. (cid:122) Is DTC U0140:87 retrieved again? I4 CHECK FOR DTCs IN THE BCM (cid:122) Using a scan tool, carry out the Yes BCM self-test. TPM module DTC U0140:87 may have been set due to a (cid:122) Is DTC U3003:16 or U3003:17 voltage issue in the BCM . REFER to the BCM DTC Chart in present? Section 419-10 . No GO to I5 . I5 CHECK FOR DTC U0140, U0140:00, OR U0140:87 SET IN OTHER MODULES (cid:122) Clear the CMDTCs from all Yes modules. INSTALL a new BCM . REFER to Section 419-10 . CLEAR all (cid:122) Ignition OFF. continuous DTCs. REPEAT the self-test. (cid:122) Ignition ON. (cid:122) Wait 10 seconds. No (cid:122) Using a scan tool, retrieve the INSTALL a new TPM module. REFER to Tire Pressure CMDTCs from all modules. Monitor (TPM) Module in this section. TEST the system for (cid:122) Is DTC U0140, U0140:00, or normal operation. U0140:87 set in more than one module? file:///C:/TSO/tsocache/VDTOM2_10764/SE2~us~en~file=SE244004.HTM~gen~ref.HT... 2014-03-01
+
+---
