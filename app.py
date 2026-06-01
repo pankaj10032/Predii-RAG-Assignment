@@ -353,37 +353,46 @@ if __name__ == "__main__":
     print(f"Python version: {sys.version}")
     print("="*60)
     
-    # Create and launch the interface
+    # Create the interface
+    app = create_interface()
+    
+    print("\nLaunching Gradio interface...")
+    print("The web interface will open in your browser.")
+    print("Press Ctrl+C to stop the server.\n")
+    
+    # Detect if running in Hugging Face Spaces
+    is_hf_space = os.getenv("SPACE_ID") is not None
+    
+    # Launch configuration
+    launch_kwargs = {
+        "server_name": "0.0.0.0",
+        "server_port": 7860,
+        "show_error": True,
+        "enable_queue": True
+    }
+    
+    # For Hugging Face Spaces, use share=True as fallback
+    if is_hf_space:
+        print("Detected Hugging Face Spaces environment")
+        launch_kwargs["share"] = False  # HF Spaces handles this automatically
+    else:
+        launch_kwargs["share"] = False
+        launch_kwargs["quiet"] = False
+    
     try:
-        app = create_interface()
-        
-        print("\nLaunching Gradio interface...")
-        print("The web interface will open in your browser.")
-        print("Press Ctrl+C to stop the server.\n")
-        
-        # Launch with error handling
-        app.launch(
-            server_name="0.0.0.0",  # Allow external access
-            server_port=7860,       # Default Gradio port
-            share=False,            # Set to True to create a public link
-            show_error=True,
-            quiet=False,
-            show_tips=False,        # Reduce console output
-            enable_queue=True       # Enable request queuing
-        )
+        app.launch(**launch_kwargs)
     except Exception as e:
-        print(f"❌ Failed to launch Gradio interface: {e}")
-        print("\nTrying fallback launch configuration...")
+        print(f"❌ Failed to launch with default config: {e}")
+        print("\nTrying with share=True...")
         try:
-            # Fallback launch with minimal configuration
-            app = create_interface()
+            # Fallback: enable sharing for restricted environments
             app.launch(
                 server_name="0.0.0.0",
                 server_port=7860,
-                share=False,
-                quiet=True
+                share=True,
+                show_error=True
             )
         except Exception as fallback_error:
-            print(f"❌ Fallback launch also failed: {fallback_error}")
+            print(f"❌ All launch attempts failed: {fallback_error}")
             print("Please check your Python environment and dependencies.")
             sys.exit(1)
