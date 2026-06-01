@@ -14,6 +14,10 @@ short_description: Ford F-150 Service Manual RAG System
 
 # Ford F-150 Service Manual RAG System
 
+[![Hugging Face Spaces](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Pankaj10346/Predii-RAG-Assignment)
+
+🚀 **Live Demo**: [https://huggingface.co/spaces/Pankaj10346/Predii-RAG-Assignment](https://huggingface.co/spaces/Pankaj10346/Predii-RAG-Assignment)
+
 A production-ready Retrieval-Augmented Generation (RAG) system for querying Ford F-150 service manual information.
 
 ## Features
