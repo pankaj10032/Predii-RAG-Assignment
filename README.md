@@ -113,3 +113,94 @@ See [requirements.txt](requirements.txt) for dependencies.
 ## License
 
 MIT License
+
+
+## Docker Deployment
+
+### Using Docker
+
+1. **Build the Docker image:**
+```bash
+docker build -t rag-system .
+```
+
+2. **Run the container:**
+```bash
+docker run -d \
+  -p 7860:7860 \
+  -e OPENAI_API_KEY=your_openai_key \
+  -e COHERE_API_KEY=your_cohere_key \
+  -e HF_TOKEN=your_hf_token \
+  -v $(pwd)/chroma_db:/app/chroma_db \
+  -v $(pwd)/chunks:/app/chunks \
+  --name rag-system \
+  rag-system
+```
+
+3. **Access the application:**
+Open http://localhost:7860 in your browser
+
+### Using Docker Compose (Recommended)
+
+1. **Ensure your `.env` file has all required keys:**
+```env
+OPENAI_API_KEY=your_openai_key
+COHERE_API_KEY=your_cohere_key
+HF_TOKEN=your_hf_token
+```
+
+2. **Start the application:**
+```bash
+docker-compose up -d
+```
+
+3. **View logs:**
+```bash
+docker-compose logs -f
+```
+
+4. **Stop the application:**
+```bash
+docker-compose down
+```
+
+### Deploy to Cloud Platforms
+
+#### Deploy to Hugging Face Spaces
+
+1. **Create a new Space on Hugging Face**
+2. **Push your code:**
+```bash
+git init
+git add .
+git commit -m "Initial commit"
+git remote add space https://huggingface.co/spaces/YOUR_USERNAME/rag-system
+git push space main
+```
+
+3. **Add secrets in Space settings:**
+   - `OPENAI_API_KEY`
+   - `COHERE_API_KEY`
+
+#### Deploy to Railway/Render
+
+1. **Connect your GitHub repository**
+2. **Set environment variables in the dashboard**
+3. **Deploy automatically on push**
+
+#### Deploy to AWS/GCP/Azure
+
+Use the provided Dockerfile to deploy to:
+- AWS ECS/Fargate
+- Google Cloud Run
+- Azure Container Instances
+
+Example for Google Cloud Run:
+```bash
+gcloud run deploy rag-system \
+  --source . \
+  --platform managed \
+  --region us-central1 \
+  --allow-unauthenticated \
+  --set-env-vars OPENAI_API_KEY=your_key,COHERE_API_KEY=your_key
+```

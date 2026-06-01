@@ -6,6 +6,15 @@ import time
 import json
 from datetime import datetime
 from typing import Dict, List, Tuple
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
+
+# Set HF token from .env if available
+if os.getenv('HF_TOKEN'):
+    os.environ['HF_TOKEN'] = os.getenv('HF_TOKEN')
+    os.environ['HUGGING_FACE_HUB_TOKEN'] = os.getenv('HF_TOKEN')
 
 # Handle Python 3.13 compatibility issues with gradio/pydub
 try:
@@ -361,11 +370,11 @@ if __name__ == "__main__":
     
     print("\nLaunching Gradio interface...")
     
-    # Use absolute minimal launch for maximum compatibility
-    # Set share=True for remote/container environments where localhost isn't accessible
+    # Run locally without share (no HF token needed)
     app.launch(
-        server_name="0.0.0.0",
+        server_name="127.0.0.1",
         server_port=7860,
-        share=True,  # Creates a public shareable link
+        share=False,  # Disabled to avoid HF token issues
+        inbrowser=True,  # Opens browser automatically
         show_error=True
     )

@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  rag-app:
+    build: .
+    container_name: rag-system
+    ports:
+      - "7860:7860"
+    environment:
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - COHERE_API_KEY=${COHERE_API_KEY}
+      - HF_TOKEN=${HF_TOKEN}
+      - GRADIO_ANALYTICS_ENABLED=False
+    volumes:
+      - ./chroma_db:/app/chroma_db
+      - ./chunks:/app/chunks
+      - ./audit_logs.jsonl:/app/audit_logs.jsonl
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:7860/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
