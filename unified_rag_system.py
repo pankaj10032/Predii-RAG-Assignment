@@ -173,6 +173,7 @@ class UnifiedRAGSystem:
             num_chunks_used=len(final_chunks),
             chunks=[{
                 "id": c.chunk_id,
+                "content": c.content,  # Added content field
                 "score": c.score,
                 "page": c.page,
                 "rank": c.rank
