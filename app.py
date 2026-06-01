@@ -186,17 +186,20 @@ def create_interface():
         print(f"Could not load custom theme, using default: {e}")
         theme = gr.themes.Default()
     
-    with gr.Blocks(
-        title="RAG System - Technical Manual Assistant",
-        theme=theme,
-        css="""
+    # Define CSS string
+    custom_css = """
         .gradio-container {
             max-width: 1200px !important;
         }
         .output-box {
             min-height: 200px;
         }
-        """ if theme else None
+        """
+    
+    with gr.Blocks(
+        title="RAG System - Technical Manual Assistant",
+        theme=theme,
+        css=custom_css
     ) as app:
         
         # Header
@@ -359,4 +362,10 @@ if __name__ == "__main__":
     print("\nLaunching Gradio interface...")
     
     # Use absolute minimal launch for maximum compatibility
-    app.launch()
+    # Set share=True for remote/container environments where localhost isn't accessible
+    app.launch(
+        server_name="0.0.0.0",
+        server_port=7860,
+        share=True,  # Creates a public shareable link
+        show_error=True
+    )
