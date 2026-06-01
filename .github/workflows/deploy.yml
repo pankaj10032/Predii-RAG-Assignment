@@ -36,7 +36,7 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install huggingface_hub
+        pip install "huggingface_hub>=0.20.0"
         if [ -f requirements.txt ]; then
           pip install -r requirements.txt
         fi
@@ -214,7 +214,7 @@ jobs:
         python << 'EOF'
         import os
         import subprocess
-        from huggingface_hub import HfApi, Repository
+        from huggingface_hub import HfApi
         from pathlib import Path
         import shutil
         import tempfile
@@ -242,83 +242,57 @@ jobs:
                     space_sdk="gradio"
                 )
             
-            # Clone the space repository
-            with tempfile.TemporaryDirectory() as temp_dir:
-                space_path = Path(temp_dir) / "space"
-                
-                print("📥 Cloning space repository...")
-                repo = Repository(
-                    local_dir=str(space_path),
-                    clone_from=f"https://huggingface.co/spaces/{space_name}",
-                    use_auth_token=token
-                )
-                
-                # Copy files to space repository
-                print("📋 Copying files to space...")
-                
-                # Files and directories to copy
-                items_to_copy = [
-                    'app.py',
-                    'requirements.txt',
-                    'README.md',
-                    'preprocessing/',
-                    'retrieval/',
-                    'reranking/',
-                    'utils/',
-                    'chunks/',
-                    'chroma_db/',
-                    'unified_rag_system.py'
-                ]
-                
-                for item in items_to_copy:
-                    src = Path(item)
-                    if src.exists():
-                        dst = space_path / item
-                        if src.is_file():
-                            dst.parent.mkdir(parents=True, exist_ok=True)
-                            shutil.copy2(src, dst)
-                            print(f"  ✅ Copied file: {item}")
-                        elif src.is_dir():
-                            if dst.exists():
-                                shutil.rmtree(dst)
-                            shutil.copytree(src, dst)
-                            print(f"  ✅ Copied directory: {item}")
-                    else:
-                        print(f"  ⚠️  Item not found: {item}")
-                
-                # Commit and push changes
-                print("📤 Committing and pushing changes...")
-                
-                # Check if there are changes
-                result = subprocess.run(
-                    ["git", "status", "--porcelain"],
-                    cwd=space_path,
-                    capture_output=True,
-                    text=True
-                )
-                
-                if result.stdout.strip():
-                    # Add all changes
-                    subprocess.run(["git", "add", "."], cwd=space_path, check=True)
-                    
-                    # Commit changes
-                    commit_message = f"Deploy from GitHub Actions - {os.environ.get('GITHUB_SHA', 'unknown')[:7]}"
-                    subprocess.run(
-                        ["git", "commit", "-m", commit_message],
-                        cwd=space_path,
-                        check=True
-                    )
-                    
-                    # Push changes
-                    subprocess.run(["git", "push"], cwd=space_path, check=True)
-                    
-                    print("✅ Successfully deployed to Hugging Face Spaces!")
-                    print(f"🌐 Your space is available at: https://huggingface.co/spaces/{space_name}")
+            # Upload files directly using HfApi
+            print("📋 Uploading files to space...")
+            
+            # Files and directories to upload
+            items_to_upload = [
+                'app.py',
+                'requirements.txt',
+                'README.md',
+                'unified_rag_system.py',
+                'preprocessing/',
+                'retrieval/',
+                'reranking/',
+                'utils/',
+                'chunks/',
+                'chroma_db/'
+            ]
+            
+            for item in items_to_upload:
+                src = Path(item)
+                if src.exists():
+                    if src.is_file():
+                        print(f"  📤 Uploading file: {item}")
+                        api.upload_file(
+                            path_or_fileobj=str(src),
+                            path_in_repo=item,
+                            repo_id=space_name,
+                            repo_type="space",
+                            token=token
+                        )
+                        print(f"  ✅ Uploaded file: {item}")
+                    elif src.is_dir():
+                        print(f"  📤 Uploading directory: {item}")
+                        api.upload_folder(
+                            folder_path=str(src),
+                            path_in_repo=item,
+                            repo_id=space_name,
+                            repo_type="space",
+                            token=token,
+                            ignore_patterns=[".git", "__pycache__", "*.pyc", ".DS_Store"]
+                        )
+                        print(f"  ✅ Uploaded directory: {item}")
                 else:
-                    print("ℹ️  No changes detected, skipping deployment")
+                    print(f"  ⚠️  Item not found: {item}")
+            
+            print("✅ Successfully deployed to Hugging Face Spaces!")
+            print(f"🌐 Your space is available at: https://huggingface.co/spaces/{space_name}")
                 
         except Exception as e:
             print(f"❌ Deployment failed: {e}")
+            import traceback
+            traceback.print_exc()
             raise
         EOF
     
