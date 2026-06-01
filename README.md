@@ -1,3 +1,17 @@
+---
+title: Predii RAG Assignment
+emoji: 🤖
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: 4.44.0
+app_file: app_minimal.py
+pinned: false
+license: mit
+python_version: 3.11
+short_description: Ford F-150 Service Manual RAG System
+---
+
 # Ford F-150 Service Manual RAG System
 
 A production-ready Retrieval-Augmented Generation (RAG) system for querying Ford F-150 service manual information.

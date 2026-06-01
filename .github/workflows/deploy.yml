@@ -81,9 +81,10 @@ jobs:
         colorTo: green
         sdk: gradio
         sdk_version: 4.44.0
-        app_file: app.py
+        app_file: app_minimal.py
         pinned: false
         license: mit
+        python_version: 3.11
         short_description: Ford F-150 Service Manual RAG System
         ---
         
@@ -248,7 +249,9 @@ jobs:
             # Files and directories to upload
             items_to_upload = [
                 'app.py',
+                'app_minimal.py',  # Fallback app for Python 3.13
                 'requirements.txt',
+                'requirements-minimal.txt',  # Minimal requirements
                 'README.md',
                 'unified_rag_system.py',
                 'preprocessing/',
