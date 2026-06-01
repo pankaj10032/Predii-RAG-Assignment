@@ -1,12 +1,35 @@
 """Gradio Web Interface for Unified RAG System"""
 
-import gradio as gr
-from unified_rag_system import UnifiedRAGSystem
+import os
+import sys
 import time
 import json
 from datetime import datetime
 from typing import Dict, List, Tuple
-import os
+
+# Handle Python 3.13 compatibility issues with gradio/pydub
+try:
+    import gradio as gr
+except ImportError as e:
+    print(f"Initial Gradio import failed: {e}")
+    # Try installing compatible audio dependencies for Python 3.13
+    try:
+        import subprocess
+        subprocess.check_call([sys.executable, "-m", "pip", "install", "pyaudioop", "--quiet"])
+        import gradio as gr
+        print("Successfully imported Gradio after installing pyaudioop")
+    except Exception as install_error:
+        print(f"Failed to install pyaudioop: {install_error}")
+        # Fallback: try importing gradio with minimal dependencies
+        try:
+            os.environ["GRADIO_ANALYTICS_ENABLED"] = "False"
+            import gradio as gr
+            print("Imported Gradio with analytics disabled")
+        except Exception as final_error:
+            print(f"Final Gradio import attempt failed: {final_error}")
+            raise ImportError("Could not import Gradio. Please check your Python version and dependencies.")
+
+from unified_rag_system import UnifiedRAGSystem
 
 print("Initializing RAG System...")
 rag_system = UnifiedRAGSystem()
@@ -157,14 +180,23 @@ def get_example_queries() -> List[str]:
 
 
 def create_interface():
-    """Create the Gradio web interface"""
-    with gr.Blocks(
-        title="RAG System - Technical Manual Assistant",
-        theme=gr.themes.Soft(
+    """Create the Gradio web interface with Python 3.13 compatibility"""
+    
+    # Use a simple theme to avoid complex dependencies
+    theme = None
+    try:
+        theme = gr.themes.Soft(
             primary_hue="blue",
             secondary_hue="gray",
             neutral_hue="gray"
-        ),
+        )
+    except Exception as e:
+        print(f"Could not load custom theme, using default: {e}")
+        theme = gr.themes.Default()
+    
+    with gr.Blocks(
+        title="RAG System - Technical Manual Assistant",
+        theme=theme,
         css="""
         .gradio-container {
             max-width: 1200px !important;
@@ -172,7 +204,7 @@ def create_interface():
         .output-box {
             min-height: 200px;
         }
-        """
+        """ if theme else None
     ) as app:
         
         # Header
@@ -326,20 +358,57 @@ def create_interface():
 if __name__ == "__main__":
     print("\n" + "="*60)
     print("Starting RAG System Web Interface")
+    print(f"Python version: {sys.version}")
     print("="*60)
     
+    # Check for potential compatibility issues
+    try:
+        import pydub
+        print("✅ pydub imported successfully")
+    except ImportError as e:
+        print(f"⚠️ pydub import issue (may be okay): {e}")
+    
+    try:
+        import audioop
+        print("✅ audioop available")
+    except ImportError:
+        try:
+            import pyaudioop
+            print("✅ pyaudioop available (Python 3.13 compatible)")
+        except ImportError:
+            print("⚠️ No audio modules available (may affect some Gradio features)")
+    
     # Create and launch the interface
-    app = create_interface()
-    
-    print("\nLaunching Gradio interface...")
-    print("The web interface will open in your browser.")
-    print("Press Ctrl+C to stop the server.\n")
-    
-    # Launch
-    app.launch(
-        server_name="0.0.0.0",  # Allow external access
-        server_port=7860,       # Default Gradio port
-        share=False,            # Set to True to create a public link
-        show_error=True,
-        quiet=False
-    )
+    try:
+        app = create_interface()
+        
+        print("\nLaunching Gradio interface...")
+        print("The web interface will open in your browser.")
+        print("Press Ctrl+C to stop the server.\n")
+        
+        # Launch with error handling
+        app.launch(
+            server_name="0.0.0.0",  # Allow external access
+            server_port=7860,       # Default Gradio port
+            share=False,            # Set to True to create a public link
+            show_error=True,
+            quiet=False,
+            show_tips=False,        # Reduce console output
+            enable_queue=True       # Enable request queuing
+        )
+    except Exception as e:
+        print(f"❌ Failed to launch Gradio interface: {e}")
+        print("\nTrying fallback launch configuration...")
+        try:
+            # Fallback launch with minimal configuration
+            app = create_interface()
+            app.launch(
+                server_name="0.0.0.0",
+                server_port=7860,
+                share=False,
+                quiet=True
+            )
+        except Exception as fallback_error:
+            print(f"❌ Fallback launch also failed: {fallback_error}")
+            print("Please check your Python environment and dependencies.")
+            sys.exit(1)
